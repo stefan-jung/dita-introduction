@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="keyref">
+  <title>Key Reference (keyref)</title>
+  <shortdesc>The key reference mechanism has been developed to decouple information.</shortdesc>
+  <body>
+    <p deliveryTarget="webhelp">Sample project: <xref href="../resources/projects/keyref.zip" format="zip"
+        >keyref.zip</xref></p>
+    <p>Consider that the only linking mechanism in a DITA environment would be a relative
+      link:<codeblock outputclass="language-xml">&lt;!-- Move a directory level up (../) and go to topic.dita --> 
+&lt;topicref href="../topic.dita"/>
+
+&lt;!-- Step into the "subdir" directory and go to topic.dita -->
+&lt;topicref href="subdir/topic.dita"/></codeblock></p>
+    <p>If topics would link heavily among each other, renaming or moving files or directories would
+      cause a lot of trouble.</p>
+    <image href="media/keyref.svg"/>
+    <p>As a solution, keys can be added to topics and elements on DITA Maps. Afterwards these topics
+      and elements can be pulled by their keys. The file paths are fetched from the DITA Map. </p>
+  </body>
+  <topic id="keyref-key-definition">
+    <title>keyref.ditamap</title>
+    <shortdesc>The <filepath>keyref.ditamap</filepath> contains a <xmlelement>keydef</xmlelement>
+      element that has a <xmlatt>keys</xmlatt> attribute with the value <codeph>product</codeph>.
+      The wrapped <xmlelement>keyword</xmlelement> element can then be pulled into the topics with a
+      key reference (<xmlatt>keyref</xmlatt>).</shortdesc>
+    <body>
+      <codeblock outputclass="language-xml"><coderef href="../samples/keyref/keyref.ditamap"/></codeblock>
+    </body>
+  </topic>
+  <topic id="keyref-key-reference">
+    <title>keyref.dita</title>
+    <shortdesc>The <xmlelement>keyword</xmlelement> element is replaced with the
+        <xmlelement>keyword</xmlelement> element from the
+      <filepath>keyref.ditamap</filepath>.</shortdesc>
+    <body>
+      <codeblock outputclass="language-xml"><coderef href="../samples/keyref/keyref.dita"/></codeblock>
+      <p>The rendered output is:</p>
+      <codeblock>Thank you for buying My Product.</codeblock>
+    </body>
+  </topic>
+</topic>

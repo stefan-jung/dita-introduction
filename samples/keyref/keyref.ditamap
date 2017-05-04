@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>keyref</title>
+    
+    <!-- The <keydef> element defines the key "product" for a <keyword> element. -->
+    <keydef keys="product">
+        <topicmeta>
+            <keywords>
+                <keyword>My Product</keyword>
+            </keywords>
+        </topicmeta>
+    </keydef>
+    
+    <topicref href="keyref.dita"/>
+</map>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+  <title>Relationship Table Example</title>
+  <topicref href="batsonar.dita" keys="batsonar"/>
+  <topicref href="batcaring.dita" keys="batcaring"/>
+  <topicref href="batfeeding.dita" keys="batfeeding"/>
+  <topicref href="batguano.dita" keys="batguano"/>
+  <topicref href="bathistory.dita" keys="bathistory"/>
+  <!-- The reltable.ditamap only contains a relationship table -->
+  <mapref href="reltable.ditamap"/>
+</map>

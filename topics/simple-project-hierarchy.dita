@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="simple-project-hierarchy">
+    <title>Simple project hierarchy</title>
+    <shortdesc>A DITA project usually contains a DITA Map with multiple
+            <xmlelement>topicref</xmlelement> elements that reference DITA Topics.</shortdesc>
+    <body>
+        <image placement="break" href="media/simple-project-hierarchy.svg"/>
+        <p deliveryTarget="webhelp">Sample project: <xref href="../resources/projects/simple-project-hierarchy.zip" format="zip">simple-project-hierarchy.zip</xref></p>
+    </body>
+    <topic id="map">
+        <title>DITA Map with some topic references</title>
+        <shortdesc>The following DITA Map example shows a very simple map structure with a few
+            topics.</shortdesc>
+        <body>
+            <codeblock outputclass="language-xml"><coderef href="../samples/simple-project-hierarchy/simple-project-hierarchy.ditamap"/></codeblock>
+            <note>It is possible to nest DITA Maps in DITA Maps using the
+                    <xmlelement>mapref</xmlelement> element.</note>
+        </body>
+    </topic>
+</topic>

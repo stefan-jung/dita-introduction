@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_plq_gnk_pz">
+    <title>DITA Pros and Cons</title>
+    <shortdesc>The implementation of DITA may be a complex task. This section lists pros and cons to
+        consider in your calculation before implementing DITA.</shortdesc>
+    <body>
+        <simpletable frame="all" relcolwidth="1* 1*" id="simpletable_xrh_3nk_pz">
+            <sthead>
+                <stentry>Pros</stentry>
+                <stentry>Cons</stentry>
+            </sthead>
+            <strow>
+                <stentry>
+                    <ul id="ul_zp2_jnk_pz">
+                        <li>Open Standard</li>
+                        <li>Adopted by the big players</li>
+                        <li>Can be used with version control systems, like Git</li>
+                        <li>Scalability, start on file system and move to enterprise CMS later</li>
+                        <li>DITA-OT is open source</li>
+                        <li>Cool features (conref, keys, relationship tables, key scopes,
+                            filters)</li>
+                        <li>Batch processing with Apache Ant</li>
+                        <li>Can be integrated in continuous integration/delivery systems like Jenkins
+                            or Travis</li>
+                        <li>User Groups on Google/Yahoo/LinkedIn/XING</li>
+                    </ul>
+                </stentry>
+                <stentry>
+                    <ul id="ul_ywm_jnk_pz">
+                        <li>Hard to learn</li>
+                        <li>Verbose XML</li>
+                        <li>Cannot (really) be used without buying an enterprise editor like
+                            &lt;oXygen/> XML</li>
+                        <li>Hard to customize (specializations)</li>
+                        <li>Default output is ugly</li>
+                        <li>Customizing the output is hard</li>
+                        <li>No useful open source solution for creating webhelps</li>
+                        <li>Only a few open source tools</li>
+                        <li>Enterprise solutions are very expensive</li>
+                        <li>Most important user groups are the <xref
+                                href="https://groups.yahoo.com/group/dita-users/" format="html"
+                                scope="external">dita-users Yahoo! Group</xref>, <xref
+                                href="https://groups.google.com/d/forum/dita-ot-users" format="html"
+                                scope="external">dita-ot-users Google Group</xref> and the <xref
+                                href="https://www.oxygenxml.com/forum/" format="html"
+                                scope="external">oXygen XML forum</xref>.</li>
+                    </ul>
+                </stentry>
+            </strow>
+        </simpletable>
+    </body>
+</topic>

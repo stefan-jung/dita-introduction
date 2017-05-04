@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+  <title>DITA Introduction</title>
+  <topicref href="topics/dita-introduction.dita">
+    <mapref href="dita-introduction.ditamap"/>
+  </topicref>
+  <topicref href="topics/dita-ot.dita"/>
+  <topicref href="topics/key-features.dita">
+    <mapref href="key-features.ditamap"/>
+  </topicref>
+  <topicref href="topics/pros-and-cons.dita"/>
+  <reltable>
+    <relheader>
+      <relcolspec type="concept"/>
+    </relheader>
+    <relrow>
+      <relcell collection-type="family">
+        <topicref keyref="keyref"/>
+        <topicref keyref="conref"/>
+        <topicref keyref="conkeyref"/>
+        <topicref keyref="conrefend"/>
+        <topicref keyref="conrefpush"/>
+      </relcell>
+    </relrow>
+  </reltable>
+</map>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="source">
+  <title>source</title>
+  <body>
+    <ul>
+      <li id="li01">list item 01</li>
+      <li id="li02">list item 02</li>
+      <li id="li03">list item 03</li>
+      <li id="li04">list item 04</li>
+      <li id="li05">list item 05</li>
+      <li id="li06">list item 06</li>
+      <li id="li07">list item 07</li>
+      <li id="li08">list item 08</li>
+      <li id="li09">list item 09</li>
+      <li id="li10">list item 10</li>
+    </ul>
+  </body>
+</topic>

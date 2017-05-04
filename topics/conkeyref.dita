@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="conkeyref">
+  <title>Content Key Reference (conkeyref)</title>
+  <shortdesc>The content key reference mechanism combines the content reference mechanism with the
+    key reference mechanism.</shortdesc>
+  <body>
+    <p deliveryTarget="webhelp">Sample project: <xref href="../resources/projects/conkeyref.zip" format="zip"
+        >conkeyref.zip</xref></p>
+    <image href="media/conkeyref.svg"/>
+  </body>
+  <topic id="conkeyref-id">
+    <title>conkeyref.ditamap</title>
+    <shortdesc>On the <filepath>conkeyref.ditamap</filepath> the <xmlelement>keydef</xmlelement>
+      element defines the key <codeph>source</codeph> for the <filepath>source.dita</filepath> topic
+      using the <xmlatt>keys</xmlatt> attribute. The <xmlelement>keydef</xmlelement> element is a
+      specialization of the <xmlelement>topicref</xmlelement> element and implicitely sets the
+        <xmlatt>processing-role</xmlatt> attribute to <codeph>resource-only</codeph>.</shortdesc>
+    <body>
+      <codeblock outputclass="language-xml"><coderef href="../samples/conkeyref/conkeyref.ditamap"/></codeblock>
+    </body>
+  </topic>
+  <topic id="conkeyref-source">
+    <title>source.dita</title>
+    <shortdesc>The <filepath>source.dita</filepath> topic contains a <xmlelement>note</xmlelement>
+      element, that has an <xmlatt>id</xmlatt> attribute and therefore can be pulled using a content
+      reference or content key reference.</shortdesc>
+    <body>
+      <codeblock outputclass="language-xml"><coderef href="../samples/conkeyref/source.dita"/></codeblock>
+    </body>
+  </topic>
+  <topic id="conref-target">
+    <title>target.dita</title>
+    <shortdesc>The <filepath>target.dita</filepath> file pulls the <xmlelement>note</xmlelement>
+      element by content keys reference. The pattern of the <xmlatt>conkeyref</xmlatt> attribute
+      is:</shortdesc>
+    <body>
+      <codeblock>KEY OF THE TOPIC + "/" + ID OF THE ELEMENT</codeblock>
+      <codeblock outputclass="language-xml"><coderef href="../samples/conkeyref/target.dita"/></codeblock>
+    </body>
+  </topic>
+</topic>

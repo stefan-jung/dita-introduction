@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+  <title>keyscopes</title>
+
+  <!-- The same technical data topic is used -->
+  <topicref href="technical-data.dita" keyscope="galaxys7">
+    <mapref href="database-galaxys7.ditamap"/>
+  </topicref>
+
+  <topicref href="technical-data.dita" keyscope="iphone7">
+    <mapref href="database-iphone7.ditamap"/>
+  </topicref>
+</map>

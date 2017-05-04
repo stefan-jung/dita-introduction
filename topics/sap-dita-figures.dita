@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_tbk_jqz_sz">
+    <title>DITA at SAP</title>
+    <shortdesc>SAP presented their worldwide DITA environment at the <i>DITA Europe 2017</i> in
+        Munich/Germany.</shortdesc>
+    <body>
+        <div><object width="560" height="315" data="https://www.youtube.com/embed/rBPK93UdrwQ"
+                outputclass="iframe"/></div>
+        <p><b>Impressive Numbers</b></p>
+        <ul id="ul_brr_hrz_sz">
+            <li>3.200+ projects</li>
+            <li>3.000.000+ DITA Topics</li>
+            <li>1.000+ registered authors</li>
+            <li>60.000+ outputs daily</li>
+            <li>47 languages</li>
+            <li>Daily builds and on-demand builds</li>
+        </ul>
+    </body>
+</topic>

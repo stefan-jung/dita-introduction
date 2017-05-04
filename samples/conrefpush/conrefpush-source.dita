@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="conrefpush-source">
+  <title>source</title>
+  <body>
+    <!--
+      The following <p> element replaces the <p> element
+      with the @id="replace-me" in the conrefpush-target.dita topic.
+    -->
+    <p conaction="pushreplace" conkeyref="conrefpush-target/replace-me">
+      NEW CONTENT :)
+    </p>
+  </body>
+</topic>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="what-is-xml">
+  <title>What is XML?</title>
+  <shortdesc>DITA is based on the Extensible Markup Language (XML). XML is a meta-language for
+    creating new languages. To understand what DITA is, it is important to understand what XML is
+    and how it works.</shortdesc>
+  <topic id="basic-elements">
+    <title>XML Elements</title>
+    <body>
+      <p>XML is a markup language (like HTML) and is both human-readable and machine-readable. This
+        means that text or other content is marked up with elements, called <i>tags</i>.</p>
+      <p>An XML document always has a tree structure, meaning it has a single root element. Elements
+        consist of an opening and a closing tag. A tag has a name, that is wrapped in a lower than
+        char (<codeph>&lt;</codeph>) and a greater than char (<codeph>></codeph>).</p>
+      <codeblock outputclass="language-xml">&lt;!-- An opening tag --&gt;
+&lt;recipe>
+
+&lt;!-- A closing tag (indicated by the "/" char) --&gt;
+&lt;/recipe>
+
+&lt;!-- The short form, a combination of opening and closing tag. The "/" is placed after the name --&gt;
+&lt;recipe/></codeblock>
+      <p>An XML document may contain comments that are not processed by XML processors. A comments
+        starts with <codeph>&lt;!--</codeph> and ends with <codeph>--></codeph>.</p>
+      <codeblock>&lt;!-- A comment --&gt;</codeblock>
+      <p>Elements may have attributes which add additional information. Attributes are included in
+        the opening tag.</p>
+      <codeblock outputclass="language-xml">&lt;element attribute="value"/></codeblock>
+    </body>
+  </topic>
+  <topic id="topic_kkf_lcj_tz">
+    <title>Schemas</title>
+    <body>
+      <p>The structure of an XML file can be specified using a schema. There are 3 common schema
+        languages, that are can be used to specify an XML structure.</p>
+      <ul id="ul_hwy_ncj_tz">
+        <li>Document Type Definition (DTD)</li>
+        <li>XML Schema (XSD)</li>
+        <li>Relax NG (RNG/RNC)</li>
+      </ul>
+      <p>The DITA XML structure is defined in all 3 languages. An information architect can choose,
+        which schema language he wants for validating the DITA files.</p>
+      <note>The structure and principle of working with grammar files is not going to be explained
+        here.</note>
+    </body>
+  </topic>
+  <topic id="simple-xml">
+    <title>A Simple XML document</title>
+    <shortdesc>The following sample file shows a basic XML file representing a recipe to cook sunny
+      side-up eggs.</shortdesc>
+    <body>
+      <codeblock outputclass="language-xml"><coderef href="../samples/sunny-side-up-eggs/sunny-side-up-eggs.xml"/></codeblock>
+    </body>
+  </topic>
+</topic>

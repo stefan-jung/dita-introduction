@@ -1,0 +1,1034 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="19.0">
+    <meta>
+        <filters directoryPatterns="" filePatterns="2017-05-02%20DITA%20Introduction%20Write%20the%20Docs.xpr" positiveFilePatterns="" showHiddenFiles="false"/>
+        <options>
+            <serialized version="19.0" xml:space="preserve">
+                <serializableOrderedMap>
+                    <entry>
+                        <String>profiling.conditions</String>
+                        <Boolean>true</Boolean>
+                    </entry>
+                    <entry>
+                        <String>profiling.conditions.list</String>
+                        <profileConditionInfo-array>
+                            <profileConditionInfo>
+                                <field name="attributeName">
+                                    <String>deliveryTarget</String>
+                                </field>
+                                <field name="allowsMultipleValues">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="allowedValues">
+                                    <profileConditionValue-array>
+                                        <profileConditionValue>
+                                            <field name="value">
+                                                <String>handout</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="level">
+                                                <Integer>0</Integer>
+                                            </field>
+                                            <field name="renderName">
+                                                <null/>
+                                            </field>
+                                        </profileConditionValue>
+                                        <profileConditionValue>
+                                            <field name="value">
+                                                <String>presentation</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="level">
+                                                <Integer>0</Integer>
+                                            </field>
+                                            <field name="renderName">
+                                                <null/>
+                                            </field>
+                                        </profileConditionValue>
+                                        <profileConditionValue>
+                                            <field name="value">
+                                                <String>webhelp</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="level">
+                                                <Integer>0</Integer>
+                                            </field>
+                                            <field name="renderName">
+                                                <null/>
+                                            </field>
+                                        </profileConditionValue>
+                                    </profileConditionValue-array>
+                                </field>
+                                <field name="documentTypePattern">
+                                    <String>*DITA*</String>
+                                </field>
+                                <field name="valuesSeparator">
+                                    <String> </String>
+                                </field>
+                                <field name="attributeRenderName">
+                                    <null/>
+                                </field>
+                            </profileConditionInfo>
+                            <profileConditionInfo>
+                                <field name="attributeName">
+                                    <String>arch</String>
+                                </field>
+                                <field name="allowsMultipleValues">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="allowedValues">
+                                    <profileConditionValue-array>
+                                        <profileConditionValue>
+                                            <field name="value">
+                                                <String>i386</String>
+                                            </field>
+                                            <field name="description">
+                                                <String>Sample value. You can change it from the "Profiling/Conditional Text" preferences page.</String>
+                                            </field>
+                                            <field name="level">
+                                                <Integer>0</Integer>
+                                            </field>
+                                            <field name="renderName">
+                                                <null/>
+                                            </field>
+                                        </profileConditionValue>
+                                        <profileConditionValue>
+                                            <field name="value">
+                                                <String>i486</String>
+                                            </field>
+                                            <field name="description">
+                                                <String>Sample value. You can change it from the "Profiling/Conditional Text" preferences page.</String>
+                                            </field>
+                                            <field name="level">
+                                                <Integer>0</Integer>
+                                            </field>
+                                            <field name="renderName">
+                                                <null/>
+                                            </field>
+                                        </profileConditionValue>
+                                    </profileConditionValue-array>
+                                </field>
+                                <field name="documentTypePattern">
+                                    <String>DocBook*</String>
+                                </field>
+                                <field name="valuesSeparator">
+                                    <String>;</String>
+                                </field>
+                                <field name="attributeRenderName">
+                                    <String>Architecture</String>
+                                </field>
+                            </profileConditionInfo>
+                            <profileConditionInfo>
+                                <field name="attributeName">
+                                    <String>condition</String>
+                                </field>
+                                <field name="allowsMultipleValues">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="allowedValues">
+                                    <profileConditionValue-array>
+                                        <profileConditionValue>
+                                            <field name="value">
+                                                <String>condition1</String>
+                                            </field>
+                                            <field name="description">
+                                                <String>Sample value. You can change it from the "Profiling/Conditional Text" preferences page.</String>
+                                            </field>
+                                            <field name="level">
+                                                <Integer>0</Integer>
+                                            </field>
+                                            <field name="renderName">
+                                                <null/>
+                                            </field>
+                                        </profileConditionValue>
+                                        <profileConditionValue>
+                                            <field name="value">
+                                                <String>condition2</String>
+                                            </field>
+                                            <field name="description">
+                                                <String>Sample value. You can change it from the "Profiling/Conditional Text" preferences page.</String>
+                                            </field>
+                                            <field name="level">
+                                                <Integer>0</Integer>
+                                            </field>
+                                            <field name="renderName">
+                                                <null/>
+                                            </field>
+                                        </profileConditionValue>
+                                    </profileConditionValue-array>
+                                </field>
+                                <field name="documentTypePattern">
+                                    <String>DocBook*</String>
+                                </field>
+                                <field name="valuesSeparator">
+                                    <String>;</String>
+                                </field>
+                                <field name="attributeRenderName">
+                                    <String>Condition</String>
+                                </field>
+                            </profileConditionInfo>
+                            <profileConditionInfo>
+                                <field name="attributeName">
+                                    <String>conformance</String>
+                                </field>
+                                <field name="allowsMultipleValues">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="allowedValues">
+                                    <profileConditionValue-array>
+                                        <profileConditionValue>
+                                            <field name="value">
+                                                <String>lsb</String>
+                                            </field>
+                                            <field name="description">
+                                                <String>Sample value. You can change it from the "Profiling/Conditional Text" preferences page.</String>
+                                            </field>
+                                            <field name="level">
+                                                <Integer>0</Integer>
+                                            </field>
+                                            <field name="renderName">
+                                                <null/>
+                                            </field>
+                                        </profileConditionValue>
+                                    </profileConditionValue-array>
+                                </field>
+                                <field name="documentTypePattern">
+                                    <String>DocBook*</String>
+                                </field>
+                                <field name="valuesSeparator">
+                                    <String>;</String>
+                                </field>
+                                <field name="attributeRenderName">
+                                    <String>Conformance</String>
+                                </field>
+                            </profileConditionInfo>
+                            <profileConditionInfo>
+                                <field name="attributeName">
+                                    <String>os</String>
+                                </field>
+                                <field name="allowsMultipleValues">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="allowedValues">
+                                    <profileConditionValue-array>
+                                        <profileConditionValue>
+                                            <field name="value">
+                                                <String>linux</String>
+                                            </field>
+                                            <field name="description">
+                                                <String>Sample value. You can change it from the "Profiling/Conditional Text" preferences page.</String>
+                                            </field>
+                                            <field name="level">
+                                                <Integer>0</Integer>
+                                            </field>
+                                            <field name="renderName">
+                                                <null/>
+                                            </field>
+                                        </profileConditionValue>
+                                        <profileConditionValue>
+                                            <field name="value">
+                                                <String>mac</String>
+                                            </field>
+                                            <field name="description">
+                                                <String>Sample value. You can change it from the "Profiling/Conditional Text" preferences page.</String>
+                                            </field>
+                                            <field name="level">
+                                                <Integer>0</Integer>
+                                            </field>
+                                            <field name="renderName">
+                                                <null/>
+                                            </field>
+                                        </profileConditionValue>
+                                        <profileConditionValue>
+                                            <field name="value">
+                                                <String>solaris</String>
+                                            </field>
+                                            <field name="description">
+                                                <String>Sample value. You can change it from the "Profiling/Conditional Text" preferences page.</String>
+                                            </field>
+                                            <field name="level">
+                                                <Integer>0</Integer>
+                                            </field>
+                                            <field name="renderName">
+                                                <null/>
+                                            </field>
+                                        </profileConditionValue>
+                                        <profileConditionValue>
+                                            <field name="value">
+                                                <String>windows</String>
+                                            </field>
+                                            <field name="description">
+                                                <String>Sample value. You can change it from the "Profiling/Conditional Text" preferences page.</String>
+                                            </field>
+                                            <field name="level">
+                                                <Integer>0</Integer>
+                                            </field>
+                                            <field name="renderName">
+                                                <null/>
+                                            </field>
+                                        </profileConditionValue>
+                                    </profileConditionValue-array>
+                                </field>
+                                <field name="documentTypePattern">
+                                    <String>DocBook*</String>
+                                </field>
+                                <field name="valuesSeparator">
+                                    <String>;</String>
+                                </field>
+                                <field name="attributeRenderName">
+                                    <String>Operating System</String>
+                                </field>
+                            </profileConditionInfo>
+                            <profileConditionInfo>
+                                <field name="attributeName">
+                                    <String>revision</String>
+                                </field>
+                                <field name="allowsMultipleValues">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="allowedValues">
+                                    <profileConditionValue-array>
+                                        <profileConditionValue>
+                                            <field name="value">
+                                                <String>1.0</String>
+                                            </field>
+                                            <field name="description">
+                                                <String>Sample value. You can change it from the "Profiling/Conditional Text" preferences page.</String>
+                                            </field>
+                                            <field name="level">
+                                                <Integer>0</Integer>
+                                            </field>
+                                            <field name="renderName">
+                                                <null/>
+                                            </field>
+                                        </profileConditionValue>
+                                        <profileConditionValue>
+                                            <field name="value">
+                                                <String>1.1</String>
+                                            </field>
+                                            <field name="description">
+                                                <String>Sample value. You can change it from the "Profiling/Conditional Text" preferences page.</String>
+                                            </field>
+                                            <field name="level">
+                                                <Integer>0</Integer>
+                                            </field>
+                                            <field name="renderName">
+                                                <null/>
+                                            </field>
+                                        </profileConditionValue>
+                                    </profileConditionValue-array>
+                                </field>
+                                <field name="documentTypePattern">
+                                    <String>DocBook*</String>
+                                </field>
+                                <field name="valuesSeparator">
+                                    <String>;</String>
+                                </field>
+                                <field name="attributeRenderName">
+                                    <String>Revision</String>
+                                </field>
+                            </profileConditionInfo>
+                            <profileConditionInfo>
+                                <field name="attributeName">
+                                    <String>revisionflag</String>
+                                </field>
+                                <field name="allowsMultipleValues">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="allowedValues">
+                                    <profileConditionValue-array>
+                                        <profileConditionValue>
+                                            <field name="value">
+                                                <String>added</String>
+                                            </field>
+                                            <field name="description">
+                                                <String>Sample value. You can change it from the "Profiling/Conditional Text" preferences page.</String>
+                                            </field>
+                                            <field name="level">
+                                                <Integer>0</Integer>
+                                            </field>
+                                            <field name="renderName">
+                                                <null/>
+                                            </field>
+                                        </profileConditionValue>
+                                        <profileConditionValue>
+                                            <field name="value">
+                                                <String>changed</String>
+                                            </field>
+                                            <field name="description">
+                                                <String>Sample value. You can change it from the "Profiling/Conditional Text" preferences page.</String>
+                                            </field>
+                                            <field name="level">
+                                                <Integer>0</Integer>
+                                            </field>
+                                            <field name="renderName">
+                                                <null/>
+                                            </field>
+                                        </profileConditionValue>
+                                    </profileConditionValue-array>
+                                </field>
+                                <field name="documentTypePattern">
+                                    <String>DocBook*</String>
+                                </field>
+                                <field name="valuesSeparator">
+                                    <String>;</String>
+                                </field>
+                                <field name="attributeRenderName">
+                                    <String>Revision Flag</String>
+                                </field>
+                            </profileConditionInfo>
+                            <profileConditionInfo>
+                                <field name="attributeName">
+                                    <String>security</String>
+                                </field>
+                                <field name="allowsMultipleValues">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="allowedValues">
+                                    <profileConditionValue-array>
+                                        <profileConditionValue>
+                                            <field name="value">
+                                                <String>high</String>
+                                            </field>
+                                            <field name="description">
+                                                <String>Sample value. You can change it from the "Profiling/Conditional Text" preferences page.</String>
+                                            </field>
+                                            <field name="level">
+                                                <Integer>0</Integer>
+                                            </field>
+                                            <field name="renderName">
+                                                <null/>
+                                            </field>
+                                        </profileConditionValue>
+                                        <profileConditionValue>
+                                            <field name="value">
+                                                <String>low</String>
+                                            </field>
+                                            <field name="description">
+                                                <String>Sample value. You can change it from the "Profiling/Conditional Text" preferences page.</String>
+                                            </field>
+                                            <field name="level">
+                                                <Integer>0</Integer>
+                                            </field>
+                                            <field name="renderName">
+                                                <null/>
+                                            </field>
+                                        </profileConditionValue>
+                                    </profileConditionValue-array>
+                                </field>
+                                <field name="documentTypePattern">
+                                    <String>DocBook*</String>
+                                </field>
+                                <field name="valuesSeparator">
+                                    <String>;</String>
+                                </field>
+                                <field name="attributeRenderName">
+                                    <String>Security</String>
+                                </field>
+                            </profileConditionInfo>
+                            <profileConditionInfo>
+                                <field name="attributeName">
+                                    <String>status</String>
+                                </field>
+                                <field name="allowsMultipleValues">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="allowedValues">
+                                    <profileConditionValue-array>
+                                        <profileConditionValue>
+                                            <field name="value">
+                                                <String>devel</String>
+                                            </field>
+                                            <field name="description">
+                                                <String>Sample value. You can change it from the "Profiling/Conditional Text" preferences page.</String>
+                                            </field>
+                                            <field name="level">
+                                                <Integer>0</Integer>
+                                            </field>
+                                            <field name="renderName">
+                                                <null/>
+                                            </field>
+                                        </profileConditionValue>
+                                        <profileConditionValue>
+                                            <field name="value">
+                                                <String>draft</String>
+                                            </field>
+                                            <field name="description">
+                                                <String>Sample value. You can change it from the "Profiling/Conditional Text" preferences page.</String>
+                                            </field>
+                                            <field name="level">
+                                                <Integer>0</Integer>
+                                            </field>
+                                            <field name="renderName">
+                                                <null/>
+                                            </field>
+                                        </profileConditionValue>
+                                    </profileConditionValue-array>
+                                </field>
+                                <field name="documentTypePattern">
+                                    <String>DocBook*</String>
+                                </field>
+                                <field name="valuesSeparator">
+                                    <String>;</String>
+                                </field>
+                                <field name="attributeRenderName">
+                                    <String>Status</String>
+                                </field>
+                            </profileConditionInfo>
+                            <profileConditionInfo>
+                                <field name="attributeName">
+                                    <String>userlevel</String>
+                                </field>
+                                <field name="allowsMultipleValues">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="allowedValues">
+                                    <profileConditionValue-array>
+                                        <profileConditionValue>
+                                            <field name="value">
+                                                <String>advanced</String>
+                                            </field>
+                                            <field name="description">
+                                                <String>Sample value. You can change it from the "Profiling/Conditional Text" preferences page.</String>
+                                            </field>
+                                            <field name="level">
+                                                <Integer>0</Integer>
+                                            </field>
+                                            <field name="renderName">
+                                                <null/>
+                                            </field>
+                                        </profileConditionValue>
+                                        <profileConditionValue>
+                                            <field name="value">
+                                                <String>beginner</String>
+                                            </field>
+                                            <field name="description">
+                                                <String>Sample value. You can change it from the "Profiling/Conditional Text" preferences page.</String>
+                                            </field>
+                                            <field name="level">
+                                                <Integer>0</Integer>
+                                            </field>
+                                            <field name="renderName">
+                                                <null/>
+                                            </field>
+                                        </profileConditionValue>
+                                    </profileConditionValue-array>
+                                </field>
+                                <field name="documentTypePattern">
+                                    <String>DocBook*</String>
+                                </field>
+                                <field name="valuesSeparator">
+                                    <String>;</String>
+                                </field>
+                                <field name="attributeRenderName">
+                                    <String>User Level</String>
+                                </field>
+                            </profileConditionInfo>
+                            <profileConditionInfo>
+                                <field name="attributeName">
+                                    <String>vendor</String>
+                                </field>
+                                <field name="allowsMultipleValues">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="allowedValues">
+                                    <profileConditionValue-array>
+                                        <profileConditionValue>
+                                            <field name="value">
+                                                <String>vendor1</String>
+                                            </field>
+                                            <field name="description">
+                                                <String>Sample value. You can change it from the "Profiling/Conditional Text" preferences page.</String>
+                                            </field>
+                                            <field name="level">
+                                                <Integer>0</Integer>
+                                            </field>
+                                            <field name="renderName">
+                                                <null/>
+                                            </field>
+                                        </profileConditionValue>
+                                        <profileConditionValue>
+                                            <field name="value">
+                                                <String>vendor2</String>
+                                            </field>
+                                            <field name="description">
+                                                <String>Sample value. You can change it from the "Profiling/Conditional Text" preferences page.</String>
+                                            </field>
+                                            <field name="level">
+                                                <Integer>0</Integer>
+                                            </field>
+                                            <field name="renderName">
+                                                <null/>
+                                            </field>
+                                        </profileConditionValue>
+                                    </profileConditionValue-array>
+                                </field>
+                                <field name="documentTypePattern">
+                                    <String>DocBook*</String>
+                                </field>
+                                <field name="valuesSeparator">
+                                    <String>;</String>
+                                </field>
+                                <field name="attributeRenderName">
+                                    <String>Vendor</String>
+                                </field>
+                            </profileConditionInfo>
+                            <profileConditionInfo>
+                                <field name="attributeName">
+                                    <String>wordsize</String>
+                                </field>
+                                <field name="allowsMultipleValues">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="allowedValues">
+                                    <profileConditionValue-array>
+                                        <profileConditionValue>
+                                            <field name="value">
+                                                <String>32bit</String>
+                                            </field>
+                                            <field name="description">
+                                                <String>Sample value. You can change it from the "Profiling/Conditional Text" preferences page.</String>
+                                            </field>
+                                            <field name="level">
+                                                <Integer>0</Integer>
+                                            </field>
+                                            <field name="renderName">
+                                                <null/>
+                                            </field>
+                                        </profileConditionValue>
+                                        <profileConditionValue>
+                                            <field name="value">
+                                                <String>64bit</String>
+                                            </field>
+                                            <field name="description">
+                                                <String>Sample value. You can change it from the "Profiling/Conditional Text" preferences page.</String>
+                                            </field>
+                                            <field name="level">
+                                                <Integer>0</Integer>
+                                            </field>
+                                            <field name="renderName">
+                                                <null/>
+                                            </field>
+                                        </profileConditionValue>
+                                    </profileConditionValue-array>
+                                </field>
+                                <field name="documentTypePattern">
+                                    <String>DocBook*</String>
+                                </field>
+                                <field name="valuesSeparator">
+                                    <String>;</String>
+                                </field>
+                                <field name="attributeRenderName">
+                                    <String>Word Size</String>
+                                </field>
+                            </profileConditionInfo>
+                            <profileConditionInfo>
+                                <field name="attributeName">
+                                    <String>lang</String>
+                                </field>
+                                <field name="allowsMultipleValues">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="allowedValues">
+                                    <profileConditionValue-array>
+                                        <profileConditionValue>
+                                            <field name="value">
+                                                <String>en</String>
+                                            </field>
+                                            <field name="description">
+                                                <String>Sample value. You can change it from the "Profiling/Conditional Text" preferences page.</String>
+                                            </field>
+                                            <field name="level">
+                                                <Integer>0</Integer>
+                                            </field>
+                                            <field name="renderName">
+                                                <null/>
+                                            </field>
+                                        </profileConditionValue>
+                                        <profileConditionValue>
+                                            <field name="value">
+                                                <String>fr</String>
+                                            </field>
+                                            <field name="description">
+                                                <String>Sample value. You can change it from the "Profiling/Conditional Text" preferences page.</String>
+                                            </field>
+                                            <field name="level">
+                                                <Integer>0</Integer>
+                                            </field>
+                                            <field name="renderName">
+                                                <null/>
+                                            </field>
+                                        </profileConditionValue>
+                                    </profileConditionValue-array>
+                                </field>
+                                <field name="documentTypePattern">
+                                    <String>DocBook 4</String>
+                                </field>
+                                <field name="valuesSeparator">
+                                    <String>;</String>
+                                </field>
+                                <field name="attributeRenderName">
+                                    <String>Language</String>
+                                </field>
+                            </profileConditionInfo>
+                            <profileConditionInfo>
+                                <field name="attributeName">
+                                    <String>xml:lang</String>
+                                </field>
+                                <field name="allowsMultipleValues">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="allowedValues">
+                                    <profileConditionValue-array>
+                                        <profileConditionValue>
+                                            <field name="value">
+                                                <String>en</String>
+                                            </field>
+                                            <field name="description">
+                                                <String>Sample value. You can change it from the "Profiling/Conditional Text" preferences page.</String>
+                                            </field>
+                                            <field name="level">
+                                                <Integer>0</Integer>
+                                            </field>
+                                            <field name="renderName">
+                                                <null/>
+                                            </field>
+                                        </profileConditionValue>
+                                        <profileConditionValue>
+                                            <field name="value">
+                                                <String>fr</String>
+                                            </field>
+                                            <field name="description">
+                                                <String>Sample value. You can change it from the "Profiling/Conditional Text" preferences page.</String>
+                                            </field>
+                                            <field name="level">
+                                                <Integer>0</Integer>
+                                            </field>
+                                            <field name="renderName">
+                                                <null/>
+                                            </field>
+                                        </profileConditionValue>
+                                    </profileConditionValue-array>
+                                </field>
+                                <field name="documentTypePattern">
+                                    <String>DocBook 5</String>
+                                </field>
+                                <field name="valuesSeparator">
+                                    <String>;</String>
+                                </field>
+                                <field name="attributeRenderName">
+                                    <String>Language</String>
+                                </field>
+                            </profileConditionInfo>
+                            <profileConditionInfo>
+                                <field name="attributeName">
+                                    <String>audience</String>
+                                </field>
+                                <field name="allowsMultipleValues">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="allowedValues">
+                                    <profileConditionValue-array>
+                                        <profileConditionValue>
+                                            <field name="value">
+                                                <String>expert</String>
+                                            </field>
+                                            <field name="description">
+                                                <String>Sample value. You can change it from the "Profiling/Conditional Text" preferences page.</String>
+                                            </field>
+                                            <field name="level">
+                                                <Integer>0</Integer>
+                                            </field>
+                                            <field name="renderName">
+                                                <null/>
+                                            </field>
+                                        </profileConditionValue>
+                                        <profileConditionValue>
+                                            <field name="value">
+                                                <String>novice</String>
+                                            </field>
+                                            <field name="description">
+                                                <String>Sample value. You can change it from the "Profiling/Conditional Text" preferences page.</String>
+                                            </field>
+                                            <field name="level">
+                                                <Integer>0</Integer>
+                                            </field>
+                                            <field name="renderName">
+                                                <null/>
+                                            </field>
+                                        </profileConditionValue>
+                                    </profileConditionValue-array>
+                                </field>
+                                <field name="documentTypePattern">
+                                    <String>DocBook 5</String>
+                                </field>
+                                <field name="valuesSeparator">
+                                    <String>;</String>
+                                </field>
+                                <field name="attributeRenderName">
+                                    <String>Audience</String>
+                                </field>
+                            </profileConditionInfo>
+                        </profileConditionInfo-array>
+                    </entry>
+                    <entry>
+                        <String>profiling.conditions.set.list</String>
+                        <profileConditionsSetInfo-array>
+                            <profileConditionsSetInfo>
+                                <field name="conditions">
+                                    <serializableOrderedMap/>
+                                </field>
+                                <field name="documentTypePattern">
+                                    <String>*DITA*</String>
+                                </field>
+                                <field name="conditionSetName">
+                                    <String>Presentation</String>
+                                </field>
+                                <field name="ditavalFile">
+                                    <String>${pd}/ditaval/presentation.ditaval</String>
+                                </field>
+                                <field name="useDITAVAL">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="shortcut">
+                                    <null/>
+                                </field>
+                            </profileConditionsSetInfo>
+                            <profileConditionsSetInfo>
+                                <field name="conditions">
+                                    <serializableOrderedMap/>
+                                </field>
+                                <field name="documentTypePattern">
+                                    <String>*DITA*</String>
+                                </field>
+                                <field name="conditionSetName">
+                                    <String>Website</String>
+                                </field>
+                                <field name="ditavalFile">
+                                    <String>${pd}/ditaval/website.ditaval</String>
+                                </field>
+                                <field name="useDITAVAL">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="shortcut">
+                                    <null/>
+                                </field>
+                            </profileConditionsSetInfo>
+                        </profileConditionsSetInfo-array>
+                    </entry>
+                    <entry>
+                        <String>scenario.associations</String>
+                        <scenarioAssociation-array>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>website.ditamap</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>Presentation and Website</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>ANT</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>presentation.ditamap</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>Presentation and Website</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>ANT</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>build.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>Presentation and Website</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>ANT</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                        </scenarioAssociation-array>
+                    </entry>
+                    <entry>
+                        <String>scenarios</String>
+                        <scenario-array>
+                            <antScenario>
+                                <field name="additionalAntArgs">
+                                    <String></String>
+                                </field>
+                                <field name="buildTarget">
+                                    <String>all</String>
+                                </field>
+                                <field name="buildFilePath">
+                                    <String>${pd}/build.xml</String>
+                                </field>
+                                <field name="ditaParams">
+                                    <list>
+                                        <antParameter>
+                                            <field name="name">
+                                                <String>dita.dir</String>
+                                            </field>
+                                            <field name="description">
+                                                <String></String>
+                                            </field>
+                                            <field name="value">
+                                                <String>${configured.ditaot.dir}</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <null/>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>5</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <null/>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <null/>
+                                            </field>
+                                        </antParameter>
+                                    </list>
+                                </field>
+                                <field name="jvmArgs">
+                                    <String>-Xmx256m</String>
+                                </field>
+                                <field name="useCustomJavaHome">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="customJavaHomeDir">
+                                    <String></String>
+                                </field>
+                                <field name="useCustomANTHome">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="customANTHomeDir">
+                                    <String></String>
+                                </field>
+                                <field name="workingDir">
+                                    <String>${pd}</String>
+                                </field>
+                                <field name="showConsoleAlways">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="advancedOptionsMap">
+                                    <null/>
+                                </field>
+                                <field name="name">
+                                    <String>Presentation and Website</String>
+                                </field>
+                                <field name="baseURL">
+                                    <null/>
+                                </field>
+                                <field name="footerURL">
+                                    <null/>
+                                </field>
+                                <field name="fOPMethod">
+                                    <null/>
+                                </field>
+                                <field name="fOProcessorName">
+                                    <null/>
+                                </field>
+                                <field name="headerURL">
+                                    <null/>
+                                </field>
+                                <field name="inputXSLURL">
+                                    <null/>
+                                </field>
+                                <field name="inputXMLURL">
+                                    <null/>
+                                </field>
+                                <field name="defaultScenario">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="isFOPPerforming">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="type">
+                                    <String>ANT</String>
+                                </field>
+                                <field name="saveAs">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="openInBrowser">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="outputFile">
+                                    <null/>
+                                </field>
+                                <field name="outputResource">
+                                    <null/>
+                                </field>
+                                <field name="openOtherLocationInBrowser">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="locationToOpenInBrowserURL">
+                                    <String></String>
+                                </field>
+                                <field name="openInEditor">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInHTMLPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInXMLPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInSVGPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInResultSetPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="useXSLTInput">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="xsltParams">
+                                    <list/>
+                                </field>
+                                <field name="cascadingStylesheets">
+                                    <String-array/>
+                                </field>
+                                <field name="xslTransformer">
+                                    <String>ANT</String>
+                                </field>
+                                <field name="extensionURLs">
+                                    <String-array>
+                                        <String>${configured.ditaot.dir}/lib/</String>
+                                        <String>${configured.ditaot.dir}/plugins/com.oxygenxml.webhelp/lib/</String>
+                                        <String>${oxygenHome}/lib/</String>
+                                    </String-array>
+                                </field>
+                            </antScenario>
+                        </scenario-array>
+                    </entry>
+                </serializableOrderedMap>
+            </serialized>
+        </options>
+    </meta>
+    <projectTree name="2017-05-02%20DITA%20Introduction%20Write%20the%20Docs.xpr">
+        <folder path="."/>
+    </projectTree>
+</project>

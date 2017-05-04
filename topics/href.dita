@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="href">
+  <title>href</title>
+  <body>
+    <p deliveryTarget="webhelp">Sample project: <xref href="../resources/projects/href.zip" format="zip"
+        >href.zip</xref></p>
+    <image href="media/href.svg"/>
+  </body>
+  <topic id="map">
+    <title>Map</title>
+    <body>
+      <codeblock outputclass="language-xml"><coderef href="../samples/href/map.ditamap"/></codeblock>
+    </body>
+  </topic>
+  <topic id="href-source">
+    <title>Link Source</title>
+    <body>
+      <codeblock outputclass="language-xml"><coderef href="../samples/href/href-source.dita"/></codeblock>
+    </body>
+  </topic>
+  <topic id="conrefend-target">
+    <title>Link Target</title>
+    <body>
+      <codeblock outputclass="language-xml"><coderef href="../samples/href/href-target.dita"/></codeblock>
+    </body>
+  </topic>
+</topic>

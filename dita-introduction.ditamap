@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+  <title>DITA Introduction</title>
+  <topicref href="topics/what-is-xml.dita"/>
+  <topicref href="topics/what-is-dita.dita"/>
+  <topicref href="topics/dita-history.dita"/>
+  <topicref href="topics/simple-project-hierarchy.dita"/>
+  <topicref href="topics/why-dita.dita"/>
+  <topicref href="topics/who-is-using-dita.dita"/>
+  <topicref href="topics/sap-dita-figures.dita"/>
+</map>

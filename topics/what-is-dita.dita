@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="what-is-dita">
+    <title>What is DITA?</title>
+    <shortdesc deliveryTarget="webhelp">This section explains the basic principles of
+        DITA.</shortdesc>
+    <body>
+        <p><b>Defintion</b>: <q>DITA defines an XML architecture for designing, writing, managing, and publishing
+            many kinds of information in print and on the Web.</q></p>
+        <p>Source: <xref
+            href="https://www.oxygenxml.com/dita/styleguide/webhelp-feedback/index.html#Artefact/Authoring_Concepts/c_Introduction_to_DITA.html"
+            format="html" scope="external">The DITA Style Guide Best Practices for Authors -
+            Introduction to DITA</xref></p>
+        <ul>
+            <li>DITA is an XML architecture and writing methodology, originally developed for creating software documentation.</li>
+            <li>DITA stands for the Darwin Information Typing Architecture.</li>
+            <li>The "Darwin" is a homage to Charles Darwin, who has developed the theory of
+                evolution. DITA incorporates evolutionary principles (specialization, adaption and
+                inheritance).</li>
+        </ul>
+    </body>
+    <topic id="maps-and-topics">
+        <title>Maps and topics</title>
+        <shortdesc>DITA contains multiple map and topic types. All of them are designed to serve a
+            specific purpose.</shortdesc>
+        <body>
+            <div>
+                <p><b>Maps</b></p>
+                <p>Maps are used for structuring content.</p>
+                <table frame="all" rowsep="1" colsep="1" id="map-types">
+                    <tgroup cols="2" align="left">
+                        <colspec colname="c1" colnum="1" colwidth="25*"/>
+                        <colspec colname="c2" colnum="2" colwidth="75*"/>
+                        <thead>
+                            <row>
+                                <entry>Map</entry>
+                                <entry>Description</entry>
+                            </row>
+                        </thead>
+                        <tbody>
+                            <row>
+                                <entry><xmlelement>map</xmlelement></entry>
+                                <entry>Describes the relationships among a set of resources, such as
+                                    DITA topics</entry>
+                            </row>
+                            <row>
+                                <entry><xmlelement>bookmap</xmlelement></entry>
+                                <entry>Special map type with elements needed to specify information
+                                    needed to publish documentation as books</entry>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table>
+            </div>
+            <div>
+                <p><b>Topics</b></p>
+                <p>Topics contain the information (text and multimedia)</p>
+                <table frame="all" rowsep="1" colsep="1" id="topic-types">
+                    <tgroup cols="2" align="left">
+                        <colspec colname="c1" colnum="1" colwidth="25*"/>
+                        <colspec colname="c2" colnum="2" colwidth="75*"/>
+                        <thead>
+                            <row>
+                                <entry>Topic</entry>
+                                <entry>Description</entry>
+                            </row>
+                        </thead>
+                        <tbody>
+                            <row>
+                                <entry><xmlelement>topic</xmlelement></entry>
+                                <entry>Generic topic type</entry>
+                            </row>
+                            <row>
+                                <entry><xmlelement>concept</xmlelement></entry>
+                                <entry>Contains background information that helps readers understand
+                                    essential information about a product, a task, a process, or any
+                                    other conceptual or descriptive information</entry>
+                            </row>
+                            <row>
+                                <entry><xmlelement>task</xmlelement></entry>
+                                <entry>Contains instructions for the completion of a
+                                    procedure</entry>
+                            </row>
+                            <row>
+                                <entry><xmlelement>reference</xmlelement></entry>
+                                <entry>Provides lists and tables that include product
+                                    specifications, parts lists, and other data that is often
+                                    "looked up" rather than memorized</entry>
+                            </row>
+                            <row>
+                                <entry><xmlelement>glossentry</xmlelement></entry>
+                                <entry>Represents a glossary entry</entry>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table>
+            </div>
+        </body>
+    </topic>
+    <topic id="topic_w4b_xjj_tz">
+        <title>Elements, Domains and Specializations</title>
+        <shortdesc>DITA has hundreds of pre-defined elements that are bundled in <b>domains</b>.
+            Domains can be stripped out or added, if necessary.</shortdesc>
+        <body>
+            <ul id="ul_d5b_jkj_tz">
+                <li>Specialized maps, topics and elements always base on specific base
+                    elements.</li>
+                <li>New maps, topics and elements must be as restrictive or more restrictive than
+                    the base information type.</li>
+                <li>Specializations are created by writing new schemas (Relax NG, XML Schema or
+                    DTD).</li>
+            </ul>
+        </body>
+    </topic>
+    <topic id="why-specialization">
+        <title>Why specialization?</title>
+        <body>
+            <p>
+                <ul>
+                    <li>Specialized structures can be used to create more specific search,
+                        validation, filtering and re-use.</li>
+                    <li>Special product architectural requirements can be mapped on new
+                        structures.</li>
+                    <li>Specializations can be easily shared with other teams or business
+                        partners.</li>
+                    <li>Because specialized maps, topic and elements are based on a base vocabulary,
+                        these specialized elements <i>can</i> use the same processing as the base
+                        elements or can be processed different.</li>
+                </ul>
+            </p>
+        </body>
+    </topic>
+    <topic id="highlighting-domain">
+        <title>Highlighting Domain</title>
+        <shortdesc>The <b>highlighting</b> domain contains elements, that can be used to emphasize
+            information.</shortdesc>
+        <body>
+            <p>The table shows the elements of the <b>highlighting</b> domain and their base
+                elements.</p>
+            <table frame="all" rowsep="1" colsep="1">
+                <tgroup cols="3" align="left">
+                    <colspec colname="c1" colnum="1" colwidth="25*"/>
+                    <colspec colname="c2" colnum="2" colwidth="25*"/>
+                    <colspec colname="c3" colnum="3" colwidth="50*"/>
+                    <thead>
+                        <row>
+                            <entry>Element Name</entry>
+                            <entry>Based On</entry>
+                            <entry>Decription</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry><xmlelement>b</xmlelement></entry>
+                            <entry><xmlelement>ph</xmlelement></entry>
+                            <entry>To apply bold highlighting to the content of the element</entry>
+                        </row>
+                        <row>
+                            <entry><xmlelement>i</xmlelement></entry>
+                            <entry><xmlelement>ph</xmlelement></entry>
+                            <entry>To apply italic highlighting to the content of the
+                                element</entry>
+                        </row>
+                        <row>
+                            <entry><xmlelement>line-through</xmlelement></entry>
+                            <entry><xmlelement>ph</xmlelement></entry>
+                            <entry>Indicates text that is rendered with a line struck through the
+                                content</entry>
+                        </row>
+                        <row>
+                            <entry><xmlelement>overline</xmlelement></entry>
+                            <entry><xmlelement>ph</xmlelement></entry>
+                            <entry>Indicates content that is rendered with a line above it</entry>
+                        </row>
+                        <row>
+                            <entry><xmlelement>sub</xmlelement></entry>
+                            <entry><xmlelement>ph</xmlelement></entry>
+                            <entry>Indicates that text should appear with subscript
+                                highlighting</entry>
+                        </row>
+                        <row>
+                            <entry><xmlelement>sup</xmlelement></entry>
+                            <entry><xmlelement>ph</xmlelement></entry>
+                            <entry>Indicates that text should appear with superscript
+                                highlighting</entry>
+                        </row>
+                        <row>
+                            <entry><xmlelement>tt</xmlelement> (teletype)</entry>
+                            <entry><xmlelement>ph</xmlelement></entry>
+                            <entry>To apply monospaced highlighting to the content of the
+                                element</entry>
+                        </row>
+                        <row>
+                            <entry><xmlelement>u</xmlelement></entry>
+                            <entry><xmlelement>ph</xmlelement></entry>
+                            <entry>To apply underline highlighting to the content of the
+                                element</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </body>
+    </topic>
+    <topic id="software-domain">
+        <title>Software Domain</title>
+        <shortdesc>The <b>software</b> domain contains elements, that can be used to explain
+            software.</shortdesc>
+        <body>
+            <p>The table shows the elements of the <b>software</b> domain and their base
+                elements.</p>
+            <table frame="all" rowsep="1" colsep="1">
+                <tgroup cols="3" align="left">
+                    <colspec colname="c1" colnum="1" colwidth="25*"/>
+                    <colspec colname="c2" colnum="2" colwidth="25*"/>
+                    <colspec colname="c3" colnum="3" colwidth="50*"/>
+                    <thead>
+                        <row>
+                            <entry>Element Name</entry>
+                            <entry>Based On</entry>
+                            <entry>Decription</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry><xmlelement>cmdname</xmlelement></entry>
+                            <entry><xmlelement>keyword</xmlelement></entry>
+                            <entry>Name of a command</entry>
+                        </row>
+                        <row>
+                            <entry><xmlelement>filepath</xmlelement></entry>
+                            <entry><xmlelement>ph</xmlelement></entry>
+                            <entry>Name of a referenced file, system path, or both</entry>
+                        </row>
+                        <row>
+                            <entry><xmlelement>msgblock</xmlelement></entry>
+                            <entry><xmlelement>pre</xmlelement></entry>
+                            <entry>Multi-line message or set of messages</entry>
+                        </row>
+                        <row>
+                            <entry><xmlelement>msgnum</xmlelement></entry>
+                            <entry><xmlelement>keyword</xmlelement></entry>
+                            <entry>Number of a message produced by an application or program</entry>
+                        </row>
+                        <row>
+                            <entry><xmlelement>msgph</xmlelement></entry>
+                            <entry><xmlelement>ph</xmlelement></entry>
+                            <entry>Message phrase that contains the text content of a message
+                                produced by an application or program</entry>
+                        </row>
+                        <row>
+                            <entry><xmlelement>systemoutput</xmlelement></entry>
+                            <entry><xmlelement>ph</xmlelement></entry>
+                            <entry>Computer output or responses to a command or situation</entry>
+                        </row>
+                        <row>
+                            <entry><xmlelement>userinput</xmlelement></entry>
+                            <entry><xmlelement>ph</xmlelement></entry>
+                            <entry>Text a user should input in response to a program or system
+                                prompt</entry>
+                        </row>
+                        <row>
+                            <entry><xmlelement>varname</xmlelement></entry>
+                            <entry><xmlelement>keyword</xmlelement></entry>
+                            <entry>Variable that must be supplied to a software application.</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </body>
+    </topic>
+</topic>

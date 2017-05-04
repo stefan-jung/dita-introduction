@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="keyref">
+    <title>keyref</title>
+    <body>
+        <p>Thank you for buying <keyword keyref="product"/>.</p>
+    </body>
+</topic>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>conkeyref</title>
+    <!--
+        Instead of using a <topicref>, we can use a <keydef> element,
+        which is a "short form" of the following <topicref>:
+        
+        <topicref href="source.dita" keys="source" processing-role="resource-only" toc="no"/>
+    -->
+    <keydef keys="source" href="source.dita"/>
+    <topicref href="target.dita"/>
+</map>

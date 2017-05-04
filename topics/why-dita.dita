@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_ehm_1py_sz">
+    <title>Why using DITA?</title>
+    <shortdesc deliveryTarget="webhelp">This section lists benefits of DITA.</shortdesc>
+    <body>
+        <ul id="ul_xly_1py_sz">
+            <li>DITA enforces <b>structured authoring</b>, which results in a good document
+                structure.</li>
+            <li>DITA facilitates <b>content re-use</b>, which leads to less duplicated content.</li>
+            <li>DITA supports <b>single sourcing</b>, which speeds up making changes in multiple
+                outputs.</li>
+            <li>DITA <b>reduces translation costs</b>, because less content has to be
+                translated.</li>
+            <li>DITA is <b>extendable</b> due to specializations and therefore can easily be adapted
+                to customer needs.</li>
+            <li>DITA is <b>scalable</b> and can be used by a single author on a single machine or by
+                hundreds of authors in a complex authoring environment with multiple publishing
+                servers.</li>
+            <li>DITA is effective for <b>collaboration</b>, because DITA files can be shared in
+                version control systems like Git or in a CMS.</li>
+            <li>DITA enables <b>conditional processing</b>, e.g. based on target audience or product
+                features.</li>
+            <li>DITA can be <b>converted</b> to all major output formats, e.g. HTML5 or PDF.</li>
+            <li>DITA <b>seperates content</b> (topics) and <b>context</b> (maps) from presentation,
+                the appearance of documents and webhelps can be quickly by changing global
+                templates.</li>
+            <li>DITA ensures <b>structural integrity</b>, because it is based on XML which can be
+                validated.</li>
+            <li>DITA is an <b>open standard</b> (not proprietary) and is not relying on specific
+                tools.</li>
+        </ul>
+    </body>
+</topic>

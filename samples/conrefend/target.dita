@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="target">
+    <title>target</title>
+    <body>
+        <ul>
+            <!-- All <li> elements from li03 to li07 are pulled into the <ul> -->
+            <li conkeyref="source/li03" conrefend=".#/li07"/>
+        </ul>
+    </body>
+</topic>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+  <title>Key Features</title>
+  <topicref href="topics/conref.dita" keys="conref"/>
+  <topicref href="topics/keyref.dita" keys="keyref"/>
+  <topicref href="topics/conkeyref.dita" keys="conkeyref"/>
+  <topicref href="topics/conrefend.dita" keys="conrefend"/>
+  <topicref href="topics/reltable.dita" keys="reltable"/>
+  <topicref href="topics/conrefpush.dita" keys="conrefpush"/>
+  <topicref href="topics/ditaval.dita" keys="ditaval"/>
+  <topicref href="topics/subjectScheme.dita" keys="subjectScheme"/>
+  <topicref href="topics/key-scopes.dita" keys="key-scopes"/>
+</map>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="technical-data">
+  <title>technical data</title>
+  <body>
+    <p>Technical Data of <keyword keyref="product"/></p>
+    <table frame="none" rowsep="0" colsep="0">
+      <tgroup cols="2">
+        <colspec colname="c1" colnum="1" colwidth="25*"/>
+        <colspec colname="c2" colnum="2" colwidth="75*"/>
+        <tbody>
+          <row>
+            <entry>Device Type</entry>
+            <entry><keyword keyref="device-type"/></entry>
+          </row>
+          <row>
+            <entry>OS</entry>
+            <entry><keyword keyref="os"/></entry>
+          </row>
+          <row>
+            <entry>Dimensions</entry>
+            <entry><keyword keyref="dimensions"/></entry>
+          </row>
+          <row>
+            <entry>Weight</entry>
+            <entry><keyword keyref="weight"/></entry>
+          </row>
+          <row>
+            <entry>Display</entry>
+            <entry><keyword keyref="display"/></entry>
+          </row>
+          <row>
+            <entry>Resolution</entry>
+            <entry><keyword keyref="resolution"/></entry>
+          </row>
+          <row>
+            <entry>Pixel Density</entry>
+            <entry><keyword keyref="pixel-density"/></entry>
+          </row>
+          <row>
+            <entry>Processor</entry>
+            <entry><keyword keyref="processor"/></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </body>
+</topic>

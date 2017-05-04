@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_xwx_gqz_sz">
+    <title>Who is using DITA</title>
+    <shortdesc>This list shows the <xref
+            href="https://www.oasis-open.org/committees/ballot.php?id=2892" format="html"
+            scope="external">companies</xref> who <i>voted</i> for the DITA 1.3
+        specification.</shortdesc>
+    <body>
+        <ul id="ul_p2d_dtz_sz">
+            <li>AT&amp;T</li>
+            <li>Adobe</li>
+            <li>Alcatel-Lucent</li>
+            <li>Cisco Systems</li>
+            <li>Deutsche Boerse AG</li>
+            <li>Deutsche Telekom AG</li>
+            <li>EMC</li>
+            <li>Ericsson</li>
+            <li>Fujitsu Limited</li>
+            <li>Hewlett Packard Enterprise (HPE)</li>
+            <li>Huawei Technologies Co., Ltd.</li>
+            <li>IBM</li>
+            <li>M.I.T.</li>
+            <li>Microsoft</li>
+            <li>Nokia Solutions and Networks</li>
+            <li>Oracle</li>
+            <li>PTC</li>
+            <li>Red Hat</li>
+            <li>SAP SE</li>
+            <li>SDL</li>
+            <li>Siemens AG</li>
+            <li>TYPO3 Association</li>
+            <li>The Boeing Company</li>
+            <li>US Department of Defense (DoD)</li>
+            <li>VMware, Inc.</li>
+        </ul>
+    </body>
+</topic>

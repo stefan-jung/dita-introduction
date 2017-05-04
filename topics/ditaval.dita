@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="ditaval">
+  <title>Filtering (DITAVAL)</title>
+  <shortdesc>A DITAVAL file <i>includes</i>, <i>excludes</i> or <i>flags</i> elements with filter
+    attributes. DITAVAL files can be passed into the build process by the
+      <codeph>dita.input.valfile</codeph> property or by <xref
+      href="https://www.oxygenxml.com/dita/1.3/specs/langRef/base/ditavalref.html" format="html"
+      scope="external"><xmlelement>ditavalref</xmlelement></xref>.</shortdesc>
+  <body>
+    <p deliveryTarget="webhelp">Sample project: <xref href="../resources/projects/ditaval.zip" format="zip">ditaval.zip</xref></p>
+  </body>
+  <topic id="ditaval-map">
+    <title>map.ditamap</title>
+    <shortdesc>The <filepath>map.ditamap</filepath> references the <filepath>topic.dita</filepath>.
+      The <xmlelement>topicref</xmlelement> element includes a <xmlelement>ditavalref</xmlelement>
+      element that references the DITAVAL file containing the filter rules. The filters are applied
+      in the scope of their parent element, in this case <filepath>topic.dita</filepath>, and its
+      children. This mechansim is called <i>branch filtering</i>.</shortdesc>
+    <body>
+      <note>If the same filter rules should be applied to the whole project, it is recommended to
+        pass the DITAVAL file by defining the <codeph>dita.input.valfile</codeph> property.</note>
+      <codeblock outputclass="language-xml"><coderef href="../samples/ditaval/map.ditamap"/></codeblock>
+    </body>
+  </topic>
+  <topic id="ditaval-topic">
+    <title>topic.dita</title>
+    <shortdesc>The <filepath>topic.dita</filepath> topic contains two <xmlelement>p</xmlelement>
+      elements, both with the filter attribute <xmlatt>platform</xmlatt>, but with different values.
+      In this example, the element with the attribute value <codeph>ios</codeph> should be filtered
+      out.</shortdesc>
+    <body>
+      <codeblock outputclass="language-xml"><coderef href="../samples/ditaval/topic.dita"/></codeblock>
+    </body>
+  </topic>
+  <topic id="ditaval-ditaval">
+    <title>android.ditaval</title>
+    <shortdesc>The <filepath>android.ditaval</filepath> file contains the filter rules. The
+        <xmlelement>prop</xmlelement> elements represent the filter rules. The <xmlatt>att</xmlatt>
+      attribute contains the name of the filter attribute and the <xmlatt>val</xmlatt> attribute
+      contains the value of the filter attribute. The <xmlatt>action</xmlatt> attribute specifies
+      what should happen to the element (<codeph>include</codeph>, <codeph>exclude</codeph>,
+        <codeph>flag</codeph>).</shortdesc>
+    <body>
+      <codeblock outputclass="language-xml"><coderef href="../samples/ditaval/android.ditaval"/></codeblock>
+      <p>This DITAVAL file</p>
+      <ul id="ul_rx3_xm3_tz">
+        <li><b>excludes</b> all elements with <codeph>platform="ios"</codeph>,
+          e.g.<codeblock outputclass="language-xml">&lt;p platform="ios">ios&lt;/p></codeblock>
+        </li>
+        <li><b>includes</b> all elements with <codeph>platform="android"</codeph>,
+          e.g.<codeblock outputclass="language-xml">&lt;p platform="android">android&lt;/p></codeblock>
+        </li>
+      </ul>
+    </body>
+  </topic>
+</topic>

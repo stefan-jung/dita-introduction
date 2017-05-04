@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="objectives">
+  <title>Objectives</title>
+  <body>
+    <ul>
+      <li>Understand XML and DITA</li>
+      <li>Brief history of DITA</li>
+      <li>Essential features of DITA</li>
+      <li>Pros and cons</li>
+    </ul>
+  </body>
+</topic>

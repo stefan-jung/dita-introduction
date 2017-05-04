@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="who-am-i">
+  <title>Who am I?</title>
+  <body>
+    <p>
+      <table frame="none" rowsep="0" colsep="0" pgwide="1">
+        <tgroup cols="2">
+          <colspec colname="c1" colnum="1" colwidth="0.33*"/>
+          <colspec colname="c2" colnum="2" colwidth="0.67*"/>
+          <tbody>
+            <row>
+              <entry><image href="../media/ich.png" placement="break"/></entry>
+              <entry>
+                <div>
+                  <p><b>Stefan Eike</b></p>
+                </div>
+                <div>
+                  <p><b>Work</b></p>
+                  <ul>
+                    <li>Technical Writer and Information Architect <xref href="http://www.dakosy.de" format="html" scope="external"><image placement="inline" href="../media/icon-dakosy.svg" outputclass="inline"/></xref></li>
+                    <li>Open Source DITA Developer <xref href="http://doctales.github.io" format="html" scope="external"><image placement="inline" href="../media/icon-doctales.svg" outputclass="inline"/></xref></li>
+                  </ul>
+                </div>
+                <div>
+                  <p><b>Education</b></p>
+                  <ul>
+                    <li>Technischer Redakteur B.A. (Technical Writer) <xref href="http://technische-redaktion-hannover.de/" format="html" scope="external"><image href="../media/icon-hs-hannover.svg" placement="inline" outputclass="inline"/></xref></li>
+                    <li>Medieninformatiker M.Sc. (Media Informatics) <xref href="http://www.oncampus.de/master-medieninformatik.html" format="html" scope="external"><image href="../media/icon-oncampus.svg" placement="inline" outputclass="inline"/></xref> <b>coming soon</b></li>
+                  </ul>
+                </div>
+                <div>
+                  <p>
+                    <xref keyref="mail.url"><image keyref="mail.icon" placement="inline"/></xref>
+                    <xref keyref="linkedin.url"><image keyref="linkedin.icon" placement="inline"/></xref>
+                    <xref keyref="xing.url"><image keyref="xing.icon" placement="inline"/></xref>
+                    <xref keyref="github.url"><image keyref="github.icon" placement="inline"/></xref>
+                    <xref keyref="twitter.url"><image keyref="twitter.icon" placement="inline"/></xref>
+                    <xref keyref="keybase.url"><image keyref="keybase.icon" placement="inline"/></xref>
+                  </p>
+                </div>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </p>
+  </body>
+</topic>

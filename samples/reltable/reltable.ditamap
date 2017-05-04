@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Relationship Table</title>
+    <reltable>
+        <relheader>
+            <relcolspec type="concept"/>
+            <relcolspec type="task"/>
+            <relcolspec type="reference"/>
+        </relheader>
+        <relrow>
+            <relcell>
+                <topicref keyref="batsonar"/>
+            </relcell>
+            <relcell>
+                <topicref keyref="batcaring"/>
+                <topicref keyref="batfeeding"/>
+            </relcell>
+            <relcell>
+                <topicref keyref="batguano"/>
+                <topicref keyref="bathistory"/>
+            </relcell>
+        </relrow>
+    </reltable>
+</map>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>conrefend</title>
+    <!--
+        The source.dita file is not rendered in the output,
+        because the <keydef> element implicitly sets processing-role="resource-only"
+    -->
+    <keydef keys="source" href="source.dita"/>
+    <topicref href="target.dita"/>
+</map>

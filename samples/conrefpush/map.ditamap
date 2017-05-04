@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+  <title>conrefpush</title>
+  <topicref href="conrefpush-source.dita" processing-role="resource-only" toc="no"/>
+  <topicref href="conrefpush-target.dita" keys="conrefpush-target"/>
+</map>

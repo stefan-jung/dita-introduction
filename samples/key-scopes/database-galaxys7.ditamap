@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+  <title>Galaxy S7</title>
+  <keydef keys="product">
+    <topicmeta>
+      <keywords>
+        <keyword>Galaxy S7</keyword>
+      </keywords>
+    </topicmeta>
+  </keydef>
+  <keydef keys="device-type">
+    <topicmeta>
+      <keywords>
+        <keyword>Smartphone</keyword>
+      </keywords>
+    </topicmeta>
+  </keydef>
+  <keydef keys="os">
+    <topicmeta>
+      <keywords>
+        <keyword>Android</keyword>
+      </keywords>
+    </topicmeta>
+  </keydef>
+  <keydef keys="dimensions">
+    <topicmeta>
+      <keywords>
+        <keyword>150.9 x 72.6 x 7.7 mm</keyword>
+      </keywords>
+    </topicmeta>
+  </keydef>
+  <keydef keys="weight">
+    <topicmeta>
+      <keywords>
+        <keyword>157 g</keyword>
+      </keywords>
+    </topicmeta>
+  </keydef>
+  <keydef keys="display">
+    <topicmeta>
+      <keywords>
+        <keyword>5.5 inches</keyword>
+      </keywords>
+    </topicmeta>
+  </keydef>
+  <keydef keys="resolution">
+    <topicmeta>
+      <keywords>
+        <keyword>1440 x 2560 pixels</keyword>
+      </keywords>
+    </topicmeta>
+  </keydef>
+  <keydef keys="pixel-density">
+    <topicmeta>
+      <keywords>
+        <keyword>534 ppi</keyword>
+      </keywords>
+    </topicmeta>
+  </keydef>
+  <keydef keys="processor">
+    <topicmeta>
+      <keywords>
+        <keyword>Qualcomm Snapdragon 820 MSM8996, Quad-core, 2200 MHz</keyword>
+      </keywords>
+    </topicmeta>
+  </keydef>
+</map>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="reltable">
+  <title>Relationship Table (reltable)</title>
+  <shortdesc><xref
+      href="https://www.oxygenxml.com/dita/1.3/specs/langRef/base/reltable.html?hl=relationship%2Ctable"
+      format="html" scope="external">Relationship Tables</xref> externalize links and decouple
+    topics from each other, because the topics themselves do not contain links to other topics, that
+    could break, if the target topics are missing.</shortdesc>
+  <body>
+    <p deliveryTarget="webhelp">Sample project: <xref href="../resources/projects/reltable.zip" format="zip"
+        >reltable.zip</xref></p>
+    <image href="media/reltable.svg"/>
+  </body>
+  <topic id="map-map">
+    <title>map.ditamap</title>
+    <shortdesc>The <filepath>map.ditamap</filepath> references the
+        <filepath>reltable.ditamap</filepath>, that contains the relationship table. Relationship
+      tables can only be defined in maps, not in topics.</shortdesc>
+    <body>
+      <codeblock outputclass="language-xml"><coderef href="../samples/reltable/map.ditamap"/></codeblock>
+    </body>
+  </topic>
+  <topic id="reltable-ditamap">
+    <title>reltable.ditamap</title>
+    <shortdesc>The <filepath>reltable.ditamap</filepath> contains the relationship table. The keys
+      are propagated from the <filepath>map.ditamap</filepath>.</shortdesc>
+    <body>
+      <codeblock outputclass="language-xml"><coderef href="../samples/reltable/reltable.ditamap"/></codeblock>
+    </body>
+  </topic>
+  <topic id="result">
+    <title>Result</title>
+    <shortdesc>In the output, the following links are rendered.</shortdesc>
+    <body>
+      <ul>
+        <li><b><filepath>batsonar</filepath></b> links to <codeph>batcaring</codeph>,
+          <codeph>batfeeding</codeph>, <codeph>batguano</codeph>,
+          <codeph>bathistory</codeph></li>
+        <li><b><filepath>batcaring</filepath></b> links to <codeph>batsonar</codeph>,
+          <codeph>batguano</codeph>, <codeph>bathistory</codeph></li>
+        <li><b><filepath>batfeeding</filepath></b> links to <codeph>batsonar</codeph>,
+          <codeph>batguano</codeph>, <codeph>bathistory</codeph></li>
+        <li><b><filepath>batguano</filepath></b> links to <codeph>batsonar</codeph>,
+          <codeph>batcaring</codeph>, <codeph>batfeeding</codeph></li>
+        <li><b><filepath>bathistory</filepath></b> links to <codeph>batsonar</codeph>,
+          <codeph>batcaring</codeph>, <codeph>batfeeding</codeph></li>
+      </ul>
+    </body>
+  </topic>
+</topic>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="conrefend">
+  <title>Content Reference End (conrefend)</title>
+  <shortdesc>The content reference end mechansim specifies an element, that is the last element of a
+    content reference range. It is used together with a content reference or content key reference,
+    that specifies the first element.</shortdesc>
+  <body>
+    <p deliveryTarget="webhelp">Sample project: <xref href="../resources/projects/conrefend.zip" format="zip"
+        >conrefend.zip</xref></p>
+    <image href="media/conrefend.svg"/>
+  </body>
+  <topic id="conrefend-id">
+    <title>conrefend.ditamap</title>
+    <shortdesc>The <xmlelement>keydef</xmlelement> element in the
+        <filepath>conrefend.ditamap</filepath> defines the key <codeph>source</codeph> using the
+        <xmlatt>keys</xmlatt> attribute for the <filepath>source.dita</filepath> topic. The
+        <filepath>source.dita</filepath> topic is a database topic and not rendered in the output.
+      Further on, it references the <filepath>target.dita</filepath> topic.</shortdesc>
+    <body>
+      <codeblock outputclass="language-xml"><coderef href="../samples/conrefend/conrefend.ditamap"/></codeblock>
+    </body>
+  </topic>
+  <topic id="conrefend-source">
+    <title>source.dita</title>
+    <shortdesc>The <filepath>source.dita</filepath> topic contains an unordered list
+        (<xmlelement>ul</xmlelement>) with 10 list items (<xmlelement>li</xmlelement>).</shortdesc>
+    <body>
+      <codeblock outputclass="language-xml"><coderef href="../samples/conrefend/source.dita"/></codeblock>
+    </body>
+  </topic>
+  <topic id="conrefend-target">
+    <title>target.dita</title>
+    <shortdesc>The <filepath>target.dita</filepath> topic pulls a range of
+        <xmlelement>li</xmlelement> elements. The range starts with the <xmlelement>li</xmlelement>
+      element <codeph>li03</codeph> and ends with the <xmlelement>li</xmlelement> element
+        <codeph>li07</codeph>.</shortdesc>
+    <body>
+      <codeblock outputclass="language-xml"><coderef href="../samples/conrefend/target.dita"/></codeblock>
+      <p>The rendered output is:</p>
+      <ul id="ul_lmp_w23_tz">
+        <li>list item 03</li>
+        <li>list item 04</li>
+        <li>list item 05</li>
+        <li>list item 06</li>
+        <li>list item 07</li>
+      </ul>
+    </body>
+  </topic>
+</topic>

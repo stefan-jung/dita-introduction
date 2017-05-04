@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="conrefpush-target">
+  <title>target</title>
+  <body>
+    <p>The following paragraph should be replaced</p>
+    <p id="replace-me">REPLACE ME</p>
+  </body>
+</topic>

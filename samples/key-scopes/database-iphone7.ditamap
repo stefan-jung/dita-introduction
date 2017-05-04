@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+  <title>iPhone 7</title>
+  <keydef keys="product">
+    <topicmeta>
+      <keywords>
+        <keyword>iPhone 7</keyword>
+      </keywords>
+    </topicmeta>
+  </keydef>
+  <keydef keys="device-type">
+    <topicmeta>
+      <keywords>
+        <keyword>Smartphone</keyword>
+      </keywords>
+    </topicmeta>
+  </keydef>
+  <keydef keys="os">
+    <topicmeta>
+      <keywords>
+        <keyword>iOS</keyword>
+      </keywords>
+    </topicmeta>
+  </keydef>
+  <keydef keys="dimensions">
+    <topicmeta>
+      <keywords>
+        <keyword>158.2 x 77.9 x 7.3 mm</keyword>
+      </keywords>
+    </topicmeta>
+  </keydef>
+  <keydef keys="weight">
+    <topicmeta>
+      <keywords>
+        <keyword>188 g</keyword>
+      </keywords>
+    </topicmeta>
+  </keydef>
+  <keydef keys="display">
+    <topicmeta>
+      <keywords>
+        <keyword>5.5 inches</keyword>
+      </keywords>
+    </topicmeta>
+  </keydef>
+  <keydef keys="resolution">
+    <topicmeta>
+      <keywords>
+        <keyword>1080 x 1920 pixels</keyword>
+      </keywords>
+    </topicmeta>
+  </keydef>
+  <keydef keys="pixel-density">
+    <topicmeta>
+      <keywords>
+        <keyword>401 ppi</keyword>
+      </keywords>
+    </topicmeta>
+  </keydef>
+  <keydef keys="processor">
+    <topicmeta>
+      <keywords>
+        <keyword>Apple A10 Fusion, Quad-core, 2340 MHz</keyword>
+      </keywords>
+    </topicmeta>
+  </keydef>
+</map>

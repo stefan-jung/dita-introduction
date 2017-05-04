@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="conref">
+  <title>Content Reference (conref)</title>
+  <shortdesc>The content reference mechanism pulls a content block to another topic.</shortdesc>
+  <body>
+    <p deliveryTarget="webhelp">Sample project: <xref href="../resources/projects/conref.zip" format="zip"
+        >conref.zip</xref></p>
+    <image href="media/conref.svg"/>
+  </body>
+  <topic id="conref-id">
+    <title>conref.ditamap</title>
+    <shortdesc>The <filepath>conref.ditamap</filepath> references two topics. The
+        <filepath>source.dita</filepath> topic is only used as a database topic. It is not rendered
+      in the output, because the <xmlatt>processing-role</xmlatt> attribute has the value
+        <codeph>resource-only</codeph> and it does not appear in the TOC, because the
+        <xmlatt>toc</xmlatt> attribute has the value <codeph>no</codeph>. The
+        <filepath>source.dita</filepath> topic contains a <xmlelement>note</xmlelement> element,
+      that is pulled into the topic <filepath>target.dita</filepath>.</shortdesc>
+    <body>
+      <codeblock outputclass="language-xml"><coderef href="../samples/conref/conref.ditamap"/></codeblock>
+    </body>
+  </topic>
+  <topic id="conref-source">
+    <title>source.dita</title>
+    <shortdesc>The <filepath>source.dita</filepath> topic is not designed to be published. It only
+      works as a content container for re-usable elements. It has a <xmlelement>note</xmlelement>
+      element with an <xmlatt>id</xmlatt> attribute. All elements with an <xmlatt>id</xmlatt>
+      attribute can be pulled to other topics.</shortdesc>
+    <body>
+      <codeblock outputclass="language-xml"><coderef href="../samples/conref/source.dita"/></codeblock>
+    </body>
+  </topic>
+  <topic id="conref-target">
+    <title>target.dita</title>
+    <shortdesc>The <filepath>target.dita</filepath> topic pulls the <xmlelement>note</xmlelement>
+      element from the <filepath>source.dita</filepath> topic using the <xmlatt>conref</xmlatt>
+      attribute. The attribute contains a path to the element. The <xmlatt>conref</xmlatt> attribute
+      in this example has the following pattern:</shortdesc>
+    <body>
+      <codeblock>PATH TO DITA FILE + "#" + ID OF ROOT ELEMENT + "/" + ID OF RE-USED ELEMENT</codeblock>
+      <codeblock outputclass="language-xml"><coderef href="../samples/conref/target.dita"/></codeblock>
+    </body>
+  </topic>
+</topic>

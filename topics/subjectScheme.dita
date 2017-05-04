@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="subjectscheme">
+  <title>Subject Scheme</title>
+  <shortdesc>The Subject Scheme Map is a specialized DITA Map that defines allowed attribute
+    values.</shortdesc>
+  <body>
+    <p deliveryTarget="webhelp">Sample project: <xref href="../resources/projects/subjectScheme.zip"
+        format="zip">subjectScheme.zip</xref></p>
+    <image href="media/subjectscheme.svg"/>
+  </body>
+  <topic id="subjectscheme-map">
+    <title>map.ditamap</title>
+    <shortdesc>The <filepath>map.ditamap</filepath> references the Subject Scheme Map
+        <filepath>subjectScheme.ditamap</filepath>. The attributes values are mapped with keys and
+      are therefore available in all topics of the <filepath>map.ditamap</filepath>.</shortdesc>
+    <body>
+      <codeblock outputclass="language-xml"><coderef href="../samples/subjectScheme/map.ditamap"/></codeblock>
+    </body>
+  </topic>
+  <topic id="subjectscheme-subjectscheme">
+    <title>subjectScheme.ditamap</title>
+    <shortdesc>The <filepath>subjectScheme.ditamap</filepath> defines the attribute values. An
+      attribute value is specified using the <xmlatt>keys</xmlatt> attribute of a
+        <xmlelement>subjectdef</xmlelement> element. The key is then used to pull and map its
+      children to an attribute. In this case, in the <xmlelement>enumerationdef</xmlelement>
+      element, the attribute values of the <codeph>os</codeph> key are binded to the attribute
+        <xmlatt>platform</xmlatt></shortdesc>
+    <body>
+      <codeblock outputclass="language-xml"><coderef href="../samples/subjectScheme/subjectScheme.ditamap"/></codeblock>
+    </body>
+  </topic>
+  <topic id="subjectscheme-topic">
+    <title>topic.dita</title>
+    <shortdesc>If the <filepath>topic.dita</filepath> is opened in the scope of the
+        <filepath>map.ditamap</filepath> map, the values for the <xmlatt>platform</xmlatt> attribute
+      are pulled from the Subject Scheme Map.</shortdesc>
+    <body>
+      <codeblock outputclass="language-xml"><coderef href="../samples/subjectScheme/topic.dita"/></codeblock>
+    </body>
+  </topic>
+</topic>

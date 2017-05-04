@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="conrefpush">
+  <title>Content Reference Push (conref push)</title>
+  <shortdesc>The content reference push mechanism is the opposite of a content
+    reference.</shortdesc>
+  <body>
+    <p deliveryTarget="webhelp">Sample project: <xref href="../resources/projects/conrefpush.zip" format="zip">conrefpush.zip</xref></p>
+    <image placement="break" href="media/conref-push.svg" id="image_fgj_rk3_tz"/>
+    <note>The content reference push can be helpful for filling a multiple referenced <i>technical
+        data</i> topic with technical data from different products.</note>
+  </body>
+  <topic id="map">
+    <title>map.ditamap</title>
+    <shortdesc>The <filepath>map.ditamap</filepath> references the
+        <filepath>conrefpush-source.dita</filepath> topic that itself pushes content into the
+        <filepath>conrefpush-target.dita</filepath> topic. The
+        <filepath>conrefpush-source.dita</filepath> topic is not rendered int the
+      output.</shortdesc>
+    <body>
+      <codeblock outputclass="language-xml"><coderef href="../samples/conrefpush/map.ditamap"/></codeblock>
+    </body>
+  </topic>
+  <topic id="conrefpush-source">
+    <title>conrefpush-source.dita</title>
+    <shortdesc>The <filepath>conrefpush-source.dita</filepath> topic contains a
+        <xmlelement>p</xmlelement> element, that replaces the <xmlelement>p</xmlelement> element
+      with the <xmlatt>id</xmlatt>
+      <codeph>replace-me</codeph> in the <filepath>conrefpush-target.dita</filepath>
+      topic.</shortdesc>
+    <body>
+      <codeblock outputclass="language-xml"><coderef href="../samples/conrefpush/conrefpush-source.dita"/></codeblock>
+    </body>
+  </topic>
+  <topic id="conrefpush-target">
+    <title>conrefpush-target.dita</title>
+    <shortdesc>The <filepath>conrefpush-target.dita</filepath> topic contains a
+        <xmlelement>p</xmlelement> element with the <xmlatt>id</xmlatt>
+      <codeph>replace-me</codeph>, that is replaced with the pushed <xmlelement>p</xmlelement>
+      element of the <filepath>conrefpush-source.dita</filepath> topic.</shortdesc>
+    <body>
+      <codeblock outputclass="language-xml"><coderef href="../samples/conrefpush/conrefpush-target.dita"/></codeblock>
+    </body>
+  </topic>
+</topic>

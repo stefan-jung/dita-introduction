@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recipe>
+  <title>Sunny side-up egg</title>
+  <ingredients>
+    <ingredient>1 egg</ingredient>
+    <ingredient>olive oil</ingredient>
+    <ingredient>salt</ingredient>
+  </ingredients>
+  <steps>
+    <step>Get frying pan on a medium head.</step>
+    <step>Add olive oil.</step>
+    <step>Crack the egg into the pan.</step>
+    <step>Cook the egg until the tops of the whites are set but the yolk of the egg is still runny.</step>
+    <step>Remove the pan from the head and take the egg using a spatula.</step>
+    <step>Serve the egg with a sprinkling of the salt.</step>
+  </steps>
+</recipe>

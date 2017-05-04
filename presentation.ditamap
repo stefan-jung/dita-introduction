@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+  <title>DITA Introduction</title>
+  <topicref href="todo.dita"/>
+  <topicref href="topics/objectives.dita"/>
+  <mapref href="dita-introduction.ditamap"/>
+  <topicref href="topics/dita-ot.dita"/>
+  <topicref href="topics/dita-key-features.dita"/>
+  <mapref href="key-features.ditamap"/>
+  <topicref href="topics/pros-and-cons.dita"/>
+  <topicref href="topics/further-information.dita"/>
+  <topicref href="topics/questions.dita"/>
+  <topicref href="topics/thank-you.dita"/>
+</map>

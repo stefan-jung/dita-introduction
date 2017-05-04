@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "subjectScheme.dtd"> 
+<subjectScheme>
+  <!-- The key "os" is the top level attribute value -->
+  <subjectdef keys="os" navtitle="Operating system">
+    <subjectdef keys="android" navtitle="Android">
+      <subjectdef keys="android5" navtitle="Android 5 Lollipop"/>
+      <subjectdef keys="android6" navtitle="Android 6 Marshmallow"/>
+      <subjectdef keys="android7" navtitle="Android 7 Nougat"/>
+    </subjectdef>
+    <subjectdef keys="ios" navtitle="iOS">
+      <subjectdef keys="ios8" navtitle="iOS 8 Donner"/>
+      <subjectdef keys="ios9" navtitle="iOS 9 Eagle"/>
+      <subjectdef keys="ios10" navtitle="iOS 10 Whitetail"/>
+    </subjectdef>
+    <subjectdef keys="windows" navtitle="Windows">
+      <subjectdef keys="windows7" navtitle="Windows 7"/>
+      <subjectdef keys="windows8" navtitle="Windows 8"/>
+      <subjectdef keys="windows10" navtitle="Windows 10"/>
+    </subjectdef>  
+  </subjectdef>
+  <!-- The <enumerationdef> element binds the values of the "os" key to the attribute "platform" -->
+  <enumerationdef>
+    <attributedef name="platform"/>
+    <subjectdef keyref="os"/>
+  </enumerationdef>
+</subjectScheme>

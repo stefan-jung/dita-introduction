@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>conref</title>
+    <!--
+        The first topic is only used as a database topic,
+        it is not rendered in the output and does not appear in the TOC
+    -->
+    <topicref href="source.dita" processing-role="resource-only" toc="no"/>
+    <topicref href="target.dita"/>
+</map>

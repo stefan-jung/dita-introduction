@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_vpb_t5j_tz">
+    <title>Further Information</title>
+    <body>
+        <p>See <xref
+                href="https://doctales.atlassian.net/wiki/display/DOC/Getting+Started+with+DITA"
+                format="html" scope="external">Getting Started with DITA</xref></p>
+    </body>
+</topic>

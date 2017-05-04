@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="conref-target">
+    <title>target</title>
+    <body>
+        <!-- The content of the <note> element is pulled from the source.dita file. -->
+        <note conref="source.dita#conref-source/charge-before-use"/>
+    </body>
+</topic>

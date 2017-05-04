@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="conkeyref-target">
+    <title>target</title>
+    <body>
+        <!--
+            Instead of using a @conref, we're using a @conkeyref
+            
+            <note conref="source.dita#conref-source/charge-before-use"/>
+        -->
+        <note conkeyref="source/charge-before-use"/>
+    </body>
+</topic>

@@ -1,0 +1,9 @@
+<head>
+    <!-- Include DOCTALES Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito|Source+Code+Pro" rel="stylesheet"><!----></link>
+    <!-- Include Highlight.js for syntax highlighting -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/styles/default.min.css"><!----></link>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/highlight.min.js"><!----></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/languages/xml.min.js"><!----></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+</head>
