@@ -11,9 +11,6 @@
   </topicref>
   <topicref href="topics/pros-and-cons.dita"/>
   <reltable>
-    <relheader>
-      <relcolspec type="concept"/>
-    </relheader>
     <relrow>
       <relcell collection-type="family">
         <topicref keyref="keyref"/>

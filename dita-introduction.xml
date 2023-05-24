@@ -25,21 +25,8 @@
     </context>
     <output href="./website"/>
     <publication transtype="webhelp-responsive">
-      <param name="args.copycss" value="yes"/>
-      <param name="args.css" value="webhelp-skin/doctales/skin-responsive.css"/>
-      <param name="args.xsl" path="xsl/webhelp-responsive.xsl"/>
-      <param name="dita.temp.dir" path="./temp/website"/>
-      <param name="webhelp.custom.resources" path="resources/"/>
-      <param name="webhelp.fragment.after.logo_and_title" value="webhelp-skin/fragments/webhelp.fragment.after.logo_and_title.xml"/>
-      <param name="webhelp.fragment.after.top_menu" value="webhelp-skin/fragments/webhelp.fragment.after.top_menu.xml"/>
-      <param name="webhelp.fragment.footer" value="webhelp-skin/fragments/webhelp.fragment.footer.xml"/>
-      <param name="webhelp.fragment.head" value="webhelp-skin/fragments/webhelp.fragment.head.xml"/>
-      <param name="webhelp.fragment.welcome" value="webhelp-skin/fragments/webhelp.fragment.welcome.xml"/>
-      <param name="webhelp.logo.image" value="webhelp-skin/logo/doctales-logo.svg"/>
-      <param name="webhelp.show.child.links" value="yes"/>
-      <param name="webhelp.show.main.page.tiles" value="no"/>
-      <param name="webhelp.show.main.page.toc" value="yes"/>
-      <param name="webhelp.show.top.menu" value="no"/>
+      <param name="webhelp.publishing.template" path="./template/doctales"/>
+      <param name="webhelp.publishing.template.descriptor" value="doctales.opt"/>
     </publication>
   </deliverable>
   

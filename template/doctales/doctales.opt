@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<publishing-template>
+  
+  <name>Doctales</name>
+  <author>
+    <name>Stefan Jung</name>
+    <email>stefan.jung@mailbox.org</email>
+  </author>
+  
+  <webhelp>       
+    <resources>
+      <css file="doctales.css"/>
+    </resources>
+    <parameters>
+      <parameter name="args.copycss" value="yes"/>
+      <parameter name="args.xsl" type="filePath" value="xsl/webhelp-responsive.xsl"/>
+      <parameter name="webhelp.custom.resources" type="filePath" value="resources/"/>
+      <parameter name="webhelp.fragment.after.logo_and_title" type="filePath" value="fragments/webhelp.fragment.after.logo_and_title.xml"/>
+      <parameter name="webhelp.fragment.after.top_menu" type="filePath" value="fragments/webhelp.fragment.after.top_menu.xml"/>
+      <parameter name="webhelp.fragment.footer" type="filePath" value="fragments/webhelp.fragment.footer.xml"/>
+      <parameter name="webhelp.fragment.head" type="filePath" value="fragments/webhelp.fragment.head.xml"/>
+      <parameter name="webhelp.fragment.welcome" type="filePath" value="fragments/webhelp.fragment.welcome.xml"/>
+      <parameter name="webhelp.logo.image" type="filePath" value="logo/doctales-logo.svg"/>
+      <parameter name="webhelp.show.child.links" value="yes"/>
+      <parameter name="webhelp.show.main.page.tiles" value="no"/>
+      <parameter name="webhelp.show.main.page.toc" value="yes"/>
+      <parameter name="webhelp.show.top.menu" value="no"/>
+    </parameters>
+  </webhelp>
+
+</publishing-template>

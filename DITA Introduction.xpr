@@ -10,6 +10,10 @@
                         <Boolean>true</Boolean>
                     </entry>
                     <entry>
+                        <String>keys.context</String>
+                        <String>${pdu}/website.ditamap?oxycontextProjectParent=dita-introduction.xml&amp;oxycontextName=Website&amp;oxycontextDitavals=ditaval%2Fwebsite.ditaval&amp;oxycontextType=LocalContext&amp;oxydeliverableID=website</String>
+                    </entry>
+                    <entry>
                         <String>profiling.conditions</String>
                         <Boolean>true</Boolean>
                     </entry>

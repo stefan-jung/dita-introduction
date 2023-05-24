@@ -530,46 +530,49 @@ a:hover, a:focus {
   font-family: Menlo, "Bitstream Vera Sans Mono", "DejaVu Sans Mono", Monaco, Consolas, monospace !important; 
   color: #000000 !important;
 }
-.hljs-doctype {
+.hl-directive {
+    color: #8b26c9 !important;
+}
+.hl-tag-doctype {
+  color: #0000ff !important;
+}
+.hl-pi {
   color: #b87bde !important;
 }
-.hljs-pi {
-  color: #b87bde !important;
-}
-.hljs-tag {
+.hl-tag {
   color: #000096 !important;
 }
-.hljs-keyword {
+.hl-keyword {
   color: #000000 !important;
 }
-.hljs-built_in {
+.hl-built_in {
   color: #000000 !important;
 }
-.hljs-meta {
+.hl-meta {
   color: #8B26C9 !important;
 }
-.hljs-name {
+.hl-name {
   color: #000096 !important;
 }
-.hljs-number {
+.hl-number {
   color: #000000 !important;
 }
-.hljs-title {
+.hl-title {
   color: #000000 !important;
 }
-.hljs-string {
+.hl-string {
   color: #993300 !important;
 }
-.hljs-symbol {
+.hl-symbol {
   color: #993300 !important;
 }
-.hljs-attr {
+.hl-attr {
   color: #f5844c !important;
 }
-.hljs-value {
+.hl-value {
   color: #993300 !important;
 }
-.hljs-comment {
+.hl-comment {
   color: #006400 !important;
 }
 .hljs.xml {
@@ -578,9 +581,9 @@ a:hover, a:focus {
 .hljs > .php {
     color: #8B26C9 !important;
 }
-.hljs > .php > .hljs-string {
+.hljs > .php > .hl-string {
     color: #8b26c9 !important;
 }
-.hljs > .php > .hljs-meta {
+.hljs > .php > .hl-meta {
     color: #8b26c9 !important;
 }
