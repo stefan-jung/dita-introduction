@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="." name="dita-cmd">
+    
+    <macrodef name="dita-cmd">
+        <attribute name="project"/>
+        <attribute name="deliverable"/>
+        <sequential>
+            <!-- For Unix run the DITA executable-->
+            <exec taskname="dita-cmd" executable="${dita.dir}/bin/dita" osfamily="unix" failonerror="true">
+                <arg value="--project"/>
+                <arg value="@{project}"/>
+                <arg value="--deliverable"/>
+                <arg value="@{deliverable}"/>
+                <arg value="--verbose"/>
+            </exec>
+            <!-- For Windows run DITA from a DOS command -->
+            <exec taskname="dita-cmd" dir="${dita.dir}/bin" executable="cmd" osfamily="windows" failonerror="true">
+                <arg value="/C"/>
+                <arg value="dita --project @{project} --deliverable @{deliverable} --verbose"/>
+            </exec>
+        </sequential>
+    </macrodef>
+  
+</project>

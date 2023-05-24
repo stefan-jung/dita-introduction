@@ -7,8 +7,7 @@
         set of tools and technologies to process DITA maps and topics and to create output formats
         like <b>PDF</b> or <b>HTML5</b>. The DITA-OT is licensed under the Apache Public License 2
         (APL2) and is hosted on <xref href="https://github.com/dita-ot/dita-ot" format="html"
-            scope="external"><image placement="inline" href="../media/icon-github.svg"
-                id="image_glg_r1k_tz" outputclass="inline"/> Github</xref>.</shortdesc>
+            scope="external">Github</xref>.</shortdesc>
     <topic id="dita-ot-technologies">
         <title>DITA-OT Technologies</title>
         <body>
@@ -22,7 +21,7 @@
         <topic id="processing-flow">
             <title>Processing Flow</title>
             <body>
-                <image href="http://www.dita-ot.org/2.4/dev_ref/images/processing-flow.png"/>
+                <image href="http://www.dita-ot.org/2.4/dev_ref/images/processing-flow.png" format="png" scope="external"/>
                 <p><b>Source</b>: <xref
                     href="http://www.dita-ot.org/2.4/dev_ref/processing-structure.html"
                     format="html" scope="external">DITA-OT Documentation - Processing

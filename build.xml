@@ -1,22 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- © Copyright DOCTALES 2017 All Rights Reserved. -->
 <project basedir="." name="2017-05-02-DITA-Introduction-Write-the-Docs" default="all">
-  <target name="all" depends="clear-dirs,presentation,website"/>
-  <target name="clear-dirs">
-    <delete includeemptydirs="true">
-      <fileset dir="." includes="**/out/"/>
-      <fileset dir="." includes="**/temp/"/>
-    </delete>
-  </target>
+  
+  <include file="ant/build_ditacmd.xml"/>
+  
+  <target name="all" depends="presentation, website"/>
+  
   <target name="presentation">
-    <ant antfile="${dita.dir}/build.xml">
-      <property name="args.input" location="presentation.ditamap"/>
-      <property name="args.reveal.css" location="${dita.dir}/plugins/org.doctales.reveal/css/doctales.css"/>
-      <property name="args.reveal.theme" value="doctales"/>
-      <property name="dita.input.valfile" location="ditaval/presentation.ditaval"/>
-      <property name="output.dir" location="out/presentation"/>
-      <property name="transtype" value="reveal"/>
-    </ant>
+    <dita-cmd project="dita-introduction.xml" deliverable="presentation"/>
     <copy todir="out/presentation/samples/" flatten="false">
       <fileset dir="samples">
         <include name="**/*.dita"/>
@@ -25,6 +16,7 @@
       </fileset>
     </copy>
   </target>
+  
   <target name="website">
     <zip basedir="samples" destfile="resources/projects/conkeyref.zip" includes="conkeyref/*" excludes="**/*.zip"/>
     <zip basedir="samples" destfile="resources/projects/conref.zip" includes="conref/*" excludes="**/*.zip"/>
@@ -36,25 +28,7 @@
     <zip basedir="samples" destfile="resources/projects/reltable.zip" includes="reltable/*" excludes="**/*.zip"/>
     <zip basedir="samples" destfile="resources/projects/simple-project-hierarchy.zip" includes="simple-project-hierarchy/*" excludes="**/*.zip"/>
     <zip basedir="samples" destfile="resources/projects/subjectScheme.zip" includes="subjectScheme/*" excludes="**/*.zip"/>
-    <ant antfile="${dita.dir}/build.xml">
-      <property name="args.copycss" value="yes"/>
-      <property name="args.css" value="webhelp-skin/doctales/skin-responsive.css"/>
-      <property name="args.input" location="website.ditamap"/>
-      <property name="args.xsl" location="${basedir}/xsl/webhelp-responsive.xsl"/>
-      <property name="dita.input.valfile" location="ditaval/website.ditaval"/>
-      <property name="webhelp.custom.resources" location="resources/"/>
-      <property name="webhelp.fragment.after.logo_and_title" location="webhelp-skin/fragments/webhelp.fragment.after.logo_and_title.xml"/>
-      <property name="webhelp.fragment.after.top_menu" location="webhelp-skin/fragments/webhelp.fragment.after.top_menu.xml"/>
-      <property name="webhelp.fragment.footer" location="webhelp-skin/fragments/webhelp.fragment.footer.xml"/>
-      <property name="webhelp.fragment.head" location="webhelp-skin/fragments/webhelp.fragment.head.xml"/>
-      <property name="webhelp.fragment.welcome" location="webhelp-skin/fragments/webhelp.fragment.welcome.xml"/>
-      <property name="webhelp.logo.image" location="webhelp-skin/logo/doctales-logo.svg"/>
-      <property name="webhelp.show.child.links" value="yes"/>
-      <property name="webhelp.show.main.page.tiles" value="no"/>
-      <property name="webhelp.show.main.page.toc" value="yes"/>
-      <property name="webhelp.show.top.menu" value="no"/>
-      <property name="output.dir" location="out/website"/>
-      <property name="transtype" value="webhelp-responsive"/>
-    </ant>
+    <dita-cmd project="dita-introduction.xml" deliverable="website"/>
   </target>
+  
 </project>

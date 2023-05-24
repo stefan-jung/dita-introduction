@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="https://www.dita-ot.org/project">
+
+  <deliverable id="presentation">
+    <context name="Presentation">
+      <input href="presentation.ditamap"/>
+      <profile>
+        <ditaval href="ditaval/presentation.ditaval"/>
+      </profile>
+    </context>
+    <output href="./presentation"/>
+    <publication transtype="reveal">
+      <!--<param name="args.reveal.css" path="${dita.dir}/plugins/org.doctales.reveal/css/doctales.css"/>-->
+      <param name="args.reveal.theme" value="doctales"/>
+      <param name="dita.temp.dir" path="./temp/presentation"/>
+    </publication>
+  </deliverable>
+  
+  <deliverable id="website">
+    <context name="Website">
+      <input href="website.ditamap"/>
+      <profile>
+        <ditaval href="ditaval/website.ditaval"/>
+      </profile>
+    </context>
+    <output href="./website"/>
+    <publication transtype="webhelp-responsive">
+      <param name="args.copycss" value="yes"/>
+      <param name="args.css" value="webhelp-skin/doctales/skin-responsive.css"/>
+      <param name="args.xsl" path="xsl/webhelp-responsive.xsl"/>
+      <param name="dita.temp.dir" path="./temp/website"/>
+      <param name="webhelp.custom.resources" path="resources/"/>
+      <param name="webhelp.fragment.after.logo_and_title" value="webhelp-skin/fragments/webhelp.fragment.after.logo_and_title.xml"/>
+      <param name="webhelp.fragment.after.top_menu" value="webhelp-skin/fragments/webhelp.fragment.after.top_menu.xml"/>
+      <param name="webhelp.fragment.footer" value="webhelp-skin/fragments/webhelp.fragment.footer.xml"/>
+      <param name="webhelp.fragment.head" value="webhelp-skin/fragments/webhelp.fragment.head.xml"/>
+      <param name="webhelp.fragment.welcome" value="webhelp-skin/fragments/webhelp.fragment.welcome.xml"/>
+      <param name="webhelp.logo.image" value="webhelp-skin/logo/doctales-logo.svg"/>
+      <param name="webhelp.show.child.links" value="yes"/>
+      <param name="webhelp.show.main.page.tiles" value="no"/>
+      <param name="webhelp.show.main.page.toc" value="yes"/>
+      <param name="webhelp.show.top.menu" value="no"/>
+    </publication>
+  </deliverable>
+  
+</project>

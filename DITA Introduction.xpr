@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project version="19.0">
+<project>
     <meta>
         <filters directoryPatterns="" filePatterns="2017-05-02%20DITA%20Introduction%20Write%20the%20Docs.xpr" positiveFilePatterns="" showHiddenFiles="false"/>
         <options>
-            <serialized version="19.0" xml:space="preserve">
+            <serialized xml:space="preserve">
                 <serializableOrderedMap>
+                    <entry>
+                        <String>enable.project.master.files.support</String>
+                        <Boolean>true</Boolean>
+                    </entry>
                     <entry>
                         <String>profiling.conditions</String>
                         <Boolean>true</Boolean>
@@ -827,6 +831,26 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>build.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>Presentation and Website</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>ANT</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>website.ditamap</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -837,6 +861,11 @@
                                 <field name="scenarioTypes">
                                     <list>
                                         <String>ANT</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
                                     </list>
                                 </field>
                             </scenarioAssociation>
@@ -854,19 +883,9 @@
                                         <String>ANT</String>
                                     </list>
                                 </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>build.xml</String>
-                                </field>
-                                <field name="scenarioIds">
+                                <field name="scenarioStorageLocations">
                                     <list>
-                                        <String>Presentation and Website</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>ANT</String>
+                                        <Byte>2</Byte>
                                     </list>
                                 </field>
                             </scenarioAssociation>
@@ -975,9 +994,6 @@
                                 <field name="openInBrowser">
                                     <Boolean>true</Boolean>
                                 </field>
-                                <field name="outputFile">
-                                    <null/>
-                                </field>
                                 <field name="outputResource">
                                     <null/>
                                 </field>
@@ -1028,7 +1044,12 @@
             </serialized>
         </options>
     </meta>
-    <projectTree name="2017-05-02%20DITA%20Introduction%20Write%20the%20Docs.xpr">
+    <projectTree name="DITA%20Introduction.xpr">
+        <folder masterFiles="true" name="Main Files">
+            <file name="dita-introduction.xml"/>
+            <file name="presentation.ditamap"/>
+            <file name="website.ditamap"/>
+        </folder>
         <folder path="."/>
     </projectTree>
 </project>
