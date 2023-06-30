@@ -25,8 +25,34 @@
     </context>
     <output href="./website"/>
     <publication transtype="webhelp-responsive">
-      <param name="webhelp.publishing.template" path="./template/doctales"/>
-      <param name="webhelp.publishing.template.descriptor" value="doctales.opt"/>
+      <param name="webhelp.publishing.template" path="./template/stefan-jung"/>
+      <param name="webhelp.publishing.template.descriptor" value="stefan-jung.opt"/>
+    </publication>
+  </deliverable>
+  
+  <deliverable id="markdown">
+    <context name="Markdown">
+      <input href="website.ditamap"/>
+      <profile>
+        <ditaval href="ditaval/website.ditaval"/>
+      </profile>
+    </context>
+    <output href="./markdown"/>
+    <publication transtype="markdown_github"/>
+  </deliverable>
+  
+  <deliverable id="html5">
+    <context name="HTML5">
+      <input href="website.ditamap"/>
+      <profile>
+        <ditaval href="ditaval/website.ditaval"/>
+      </profile>
+    </context>
+    <output href="./html5"/>
+    <publication transtype="html5">
+      <param name="args.css" value="stefan-jung.css"/>
+      <param name="args.copycss" value="yes"/>
+      <param name="args.cssroot" path="template/stefan-jung/"/>
     </publication>
   </deliverable>
   

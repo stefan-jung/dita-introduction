@@ -4,6 +4,14 @@
   <title>Content Key Reference (conkeyref)</title>
   <shortdesc>The content key reference mechanism combines the content reference mechanism with the
     key reference mechanism.</shortdesc>
+  <prolog>
+    <metadata>
+      <data name="title" value="Content Key Reference (conkeyref)"/>
+      <data name="permalink" value="/dita-introduction/conkeyref.html"/>
+      <data name="description" value="The content key reference mechanism combines the content reference mechanism with the key reference mechanism."/>
+      <data name="layout" value="page"/>
+    </metadata>
+  </prolog>
   <body>
     <p deliveryTarget="webhelp">Sample project: <xref href="../resources/projects/conkeyref.zip" format="zip"
         >conkeyref.zip</xref></p>

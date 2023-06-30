@@ -1,0 +1,76 @@
+/*#
+@colors&{"titlesAccentColor":"#1471bb","labelsAccentColor":"#6f6f6f","linksAccentColor":"#1471bb","backgroundAccentColor":"#dce5f2","isDefault":true}&colors@
+@info@STYLES BASKET SELECTIONS METADATA@info@
+@name&styles_basket&name@
+@aspects&wh-tree,accent-colors-selector,wh-tree-themes-titles-labels-colors&aspects@
+@info@WARNING: PLEASE DON'T MODIFY THIS FILE. MODIFICATION CAN CAUSE UPLOADING ERRORS@info@
+#*/
+/* Bold selection in Publication TOC. WebHelp only. */
+@media screen {
+  .wh_publication_toc .active > .topicref a {
+    font-weight: bold;
+  }
+}
+/*accent-colors-selector*/
+.topictitle1,
+.topictitle2,
+.topictitle3,
+.topictitle4,
+.topictitle5,
+.topictitle6,
+*[class~='front-page/front-page-title'],
+*[class~="toc/title"],
+*[class~="placeholder/figurelist"] > *[class~="topic/title"],
+*[class~="placeholder/tablelist"] > *[class~="topic/title"],
+*[class~="index/groups"]::before {
+  color: #1471bb;
+}
+*[class~='topic/shortdesc']:before {
+  color: #6f6f6f;
+}
+*[class~='topic/xref'],
+*[class~='topic/link'] {
+  color: #1471bb;
+}
+.related-links a,
+.related-links a:visited {
+  color: #1471bb;
+}
+a,
+a:hover,
+a:visited {
+  color: #1471bb;
+}
+*[class~='topic/table'] th {
+  background-color: #dce5f2;
+}
+/*wh-tree*/
+/*wh-tree-themes-titles-labels-colors*/
+.wh_main_page_toc {
+  border: none;
+  background-color: transparent;
+}
+.wh_main_page_toc .wh_main_page_toc_accordion_header,
+.wh_main_page_toc > .wh_main_page_toc_entry,
+.wh_main_page_toc_accordion_entries {
+  border-bottom: #1471bb;
+  background-color: transparent;
+  text-align: left;
+}
+.wh_main_page_toc .wh_main_page_toc_accordion_header:hover,
+.wh_main_page_toc > .wh_main_page_toc_entry:hover {
+  background-color: rgba(20, 113, 187, 0.1);
+  color: #1471bb;
+}
+.wh_main_page_toc .topicref a,
+.wh_main_page_toc .topicref a:visited {
+  color: #1471bb;
+}
+.wh_main_page_toc .wh_toc_shortdesc {
+  color: #6f6f6f;
+  font-weight: normal;
+}
+.wh_main_page_toc_accordion_header:before {
+  color: #1471bb;
+}
+

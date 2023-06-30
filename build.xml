@@ -4,7 +4,7 @@
   
   <include file="ant/build_ditacmd.xml"/>
   
-  <target name="all" depends="presentation, website"/>
+  <target name="all" depends="presentation, website, markdown, html5"/>
   
   <target name="presentation">
     <dita-cmd project="dita-introduction.xml" deliverable="presentation"/>
@@ -29,6 +29,14 @@
     <zip basedir="samples" destfile="resources/projects/simple-project-hierarchy.zip" includes="simple-project-hierarchy/*" excludes="**/*.zip"/>
     <zip basedir="samples" destfile="resources/projects/subjectScheme.zip" includes="subjectScheme/*" excludes="**/*.zip"/>
     <dita-cmd project="dita-introduction.xml" deliverable="website"/>
+  </target>
+  
+  <target name="markdown">
+    <dita-cmd project="dita-introduction.xml" deliverable="markdown"/>
+  </target>
+  
+  <target name="html5">
+    <dita-cmd project="dita-introduction.xml" deliverable="html5"/>
   </target>
   
 </project>

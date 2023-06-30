@@ -839,7 +839,7 @@
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>Presentation and Website</String>
+                                        <String>Presentation, Website, and Markdown</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -859,7 +859,7 @@
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>Presentation and Website</String>
+                                        <String>Presentation, Website, and Markdown</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -879,7 +879,7 @@
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>Presentation and Website</String>
+                                        <String>Presentation, Website, and Markdown</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -960,7 +960,7 @@
                                     <null/>
                                 </field>
                                 <field name="name">
-                                    <String>Presentation and Website</String>
+                                    <String>Presentation, Website, and Markdown</String>
                                 </field>
                                 <field name="baseURL">
                                     <null/>
